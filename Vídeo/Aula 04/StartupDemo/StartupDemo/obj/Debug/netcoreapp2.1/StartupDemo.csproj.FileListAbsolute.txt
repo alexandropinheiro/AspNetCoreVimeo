@@ -31,3 +31,8 @@ D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\ne
 D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.pdb
 D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.csproj.CopyComplete
 D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\Razor\Views\Teste\Index.g.cshtml.cs
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\Razor\Views\Eventos\Create.g.cshtml.cs
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\Razor\Views\Eventos\Delete.g.cshtml.cs
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\Razor\Views\Eventos\Details.g.cshtml.cs
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\Razor\Views\Eventos\Edit.g.cshtml.cs
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\Razor\Views\Eventos\Index.g.cshtml.cs

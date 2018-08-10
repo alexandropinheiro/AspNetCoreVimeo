@@ -12218,7 +12218,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alexandrorp\\.nuget\\packages\\": {},
+    "C:\\Users\\ALEXANDRORP_ADM\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -12227,14 +12227,14 @@
       "projectUniqueName": "D:\\Aprendizado\\Eduardo Pires\\Vídeo\\Aula 04\\StartupDemo\\StartupDemo\\StartupDemo.csproj",
       "projectName": "StartupDemo",
       "projectPath": "D:\\Aprendizado\\Eduardo Pires\\Vídeo\\Aula 04\\StartupDemo\\StartupDemo\\StartupDemo.csproj",
-      "packagesPath": "C:\\Users\\alexandrorp\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\ALEXANDRORP_ADM\\.nuget\\packages\\",
       "outputPath": "D:\\Aprendizado\\Eduardo Pires\\Vídeo\\Aula 04\\StartupDemo\\StartupDemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\alexandrorp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ALEXANDRORP_ADM\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12242,7 +12242,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://tcerjvm21:8080/tfs/DefaultCollection/_packaging/PacotesTCE/nuget/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

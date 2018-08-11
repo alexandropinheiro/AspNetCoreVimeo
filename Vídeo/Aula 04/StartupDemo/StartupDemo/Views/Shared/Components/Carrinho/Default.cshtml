@@ -1,0 +1,9 @@
+﻿@model StartupDemo.Models.Carrinho
+<ul class="nav navbar-nav navbar-right">
+    <li>
+        <a asp-action="Index" asp-controller="Home" title="Carrinho">
+            <span class="glyphicon glyphicon-shopping-cart"></span>
+            @Model.TotalItens
+        </a>
+    </li>
+</ul>

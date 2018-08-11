@@ -1,2 +1,10 @@
 D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\bin\Debug\netcoreapp2.1\StartupDemo.dll
 D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\bin\Debug\netcoreapp2.1\StartupDemo.Views.dll
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.csprojAssemblyReference.cache
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.csproj.CoreCompileInputs.cache
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.RazorAssemblyInfo.cache
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.RazorAssemblyInfo.cs
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.AssemblyInfoInputs.cache
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.AssemblyInfo.cs
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.TagHelpers.input.cache
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.TagHelpers.output.cache

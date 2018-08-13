@@ -12213,6 +12213,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.AspNetCore.App >= 2.1.1",
+      "Microsoft.AspNetCore.Mvc >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.1"
     ]
@@ -12224,11 +12225,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Aprendizado\\Eduardo Pires\\Vídeo\\Aula 04\\StartupDemo\\StartupDemo\\StartupDemo.csproj",
+      "projectUniqueName": "d:\\Aprendizado\\Eduardo Pires\\Vídeo\\Aula 04\\StartupDemo\\StartupDemo\\StartupDemo.csproj",
       "projectName": "StartupDemo",
-      "projectPath": "D:\\Aprendizado\\Eduardo Pires\\Vídeo\\Aula 04\\StartupDemo\\StartupDemo\\StartupDemo.csproj",
+      "projectPath": "d:\\Aprendizado\\Eduardo Pires\\Vídeo\\Aula 04\\StartupDemo\\StartupDemo\\StartupDemo.csproj",
       "packagesPath": "C:\\Users\\ALEXANDRORP_ADM\\.nuget\\packages\\",
-      "outputPath": "D:\\Aprendizado\\Eduardo Pires\\Vídeo\\Aula 04\\StartupDemo\\StartupDemo\\obj\\",
+      "outputPath": "d:\\Aprendizado\\Eduardo Pires\\Vídeo\\Aula 04\\StartupDemo\\StartupDemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12263,6 +12264,10 @@
             "target": "Package",
             "version": "[2.1.1, )",
             "autoReferenced": true
+          },
+          "Microsoft.AspNetCore.Mvc": {
+            "target": "Package",
+            "version": "[2.1.1, )"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",

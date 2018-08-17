@@ -12219,23 +12219,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ALEXANDRORP_ADM\\.nuget\\packages\\": {},
+    "C:\\Users\\Alexandro e Fabiana\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "d:\\Aprendizado\\Eduardo Pires\\Vídeo\\Aula 04\\StartupDemo\\StartupDemo\\StartupDemo.csproj",
       "projectName": "StartupDemo",
       "projectPath": "d:\\Aprendizado\\Eduardo Pires\\Vídeo\\Aula 04\\StartupDemo\\StartupDemo\\StartupDemo.csproj",
       "packagesPath": "C:\\Users\\ALEXANDRORP_ADM\\.nuget\\packages\\",
       "outputPath": "d:\\Aprendizado\\Eduardo Pires\\Vídeo\\Aula 04\\StartupDemo\\StartupDemo\\obj\\",
+=======
+      "projectUniqueName": "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Vídeo\\Aula 04\\StartupDemo\\StartupDemo\\StartupDemo.csproj",
+      "projectName": "StartupDemo",
+      "projectPath": "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Vídeo\\Aula 04\\StartupDemo\\StartupDemo\\StartupDemo.csproj",
+      "packagesPath": "C:\\Users\\Alexandro e Fabiana\\.nuget\\packages\\",
+      "outputPath": "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Vídeo\\Aula 04\\StartupDemo\\StartupDemo\\obj\\",
+>>>>>>> 11972530a138140853e5c7de81b73af10e7ea8af
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ALEXANDRORP_ADM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alexandro e Fabiana\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -12072,7 +12072,7 @@
       ]
     },
     "System.Security.Cryptography.Xml/4.4.2": {
-      "sha512": "q9Dren/YP5jhRCkDvLfuaPpMTQzP97ANvzq/OoGgwK8YdLRSTABS9oW5/23OKoM2DRCuBrh4qaecD2YNhPtuzQ==",
+      "sha512": "1m+fKVrApgKYMRuE0MF0vGjqy4XqAp1rCtyAzMXhJajMDDytMh/rHk9hp4M7KKk3QQZoWJUvyUY7xcw74w+JiQ==",
       "type": "package",
       "path": "system.security.cryptography.xml/4.4.2",
       "files": [
@@ -13259,7 +13259,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ALEXANDRORP_ADM\\.nuget\\packages\\": {},
+    "C:\\Users\\alexandrorp\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -13268,14 +13268,14 @@
       "projectUniqueName": "D:\\Aprendizado\\Eduardo Pires\\Vídeo\\Aula 07\\DemoIdentity\\DemoIdentity\\DemoIdentity.csproj",
       "projectName": "DemoIdentity",
       "projectPath": "D:\\Aprendizado\\Eduardo Pires\\Vídeo\\Aula 07\\DemoIdentity\\DemoIdentity\\DemoIdentity.csproj",
-      "packagesPath": "C:\\Users\\ALEXANDRORP_ADM\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\alexandrorp\\.nuget\\packages\\",
       "outputPath": "D:\\Aprendizado\\Eduardo Pires\\Vídeo\\Aula 07\\DemoIdentity\\DemoIdentity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ALEXANDRORP_ADM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alexandrorp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13283,6 +13283,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://tcerjvm21:8080/tfs/DefaultCollection/_packaging/PacotesTCE/nuget/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

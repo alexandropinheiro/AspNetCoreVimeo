@@ -220,7 +220,13 @@ namespace DemoIdentity.Controllers
             ViewData["ReturnUrl"] = returnUrl;
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
+                var user = new ApplicationUser { UserName = model.Email, Cpf = model.Cpf, Email = model.Email };
+
+                //user.Claims.Add(new IdentityUserClaim<string>{
+                //    ClaimType = "HomeClaim",
+                //    ClaimValue = "v1"
+                //});
+
                 var result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {

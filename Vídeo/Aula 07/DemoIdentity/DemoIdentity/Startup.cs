@@ -33,6 +33,33 @@ namespace DemoIdentity
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
+            services.Configure<IdentityOptions>(options =>
+            {
+                #region  Password settings
+                options.Password.RequireDigit = true;
+                options.Password.RequiredLength = 8;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireUppercase = true;
+                options.Password.RequireLowercase = false;
+                #endregion
+
+                #region Lockout settings
+                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(30);
+                options.Lockout.MaxFailedAccessAttempts = 10;
+                #endregion
+
+                #region Cookie settings
+                //options.Cookie.ApplicationCookie.ExpireTimeStamp = TimeSpan.FromDays(150);
+                //options.Cookie.ApplicationCookie.ExpireTimeStamp = TimeSpan.FromDays(150);
+                //options.Cookie.ApplicationCookie.ExpireTimeStamp = TimeSpan.FromDays(150);
+                #endregion
+
+                #region User settings
+                options.User.RequireUniqueEmail = true;
+                #endregion
+
+            });
+
             services.AddAuthorization(options =>
             {
                 options.AddPolicy("AcessoHome", policy => policy.RequireClaim("HomeClaim"));

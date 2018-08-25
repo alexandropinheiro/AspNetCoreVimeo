@@ -1,0 +1,8 @@
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Vídeo\Aula 07\DemoIdentity\DemoIdentity\bin\Debug\netcoreapp2.0\DemoIdentity.deps.json
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Vídeo\Aula 07\DemoIdentity\DemoIdentity\bin\Debug\netcoreapp2.0\DemoIdentity.runtimeconfig.json
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Vídeo\Aula 07\DemoIdentity\DemoIdentity\bin\Debug\netcoreapp2.0\DemoIdentity.runtimeconfig.dev.json
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Vídeo\Aula 07\DemoIdentity\DemoIdentity\bin\Debug\netcoreapp2.0\DemoIdentity.dll
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Vídeo\Aula 07\DemoIdentity\DemoIdentity\obj\Debug\netcoreapp2.0\DemoIdentity.csprojAssemblyReference.cache
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Vídeo\Aula 07\DemoIdentity\DemoIdentity\obj\Debug\netcoreapp2.0\DemoIdentity.csproj.CoreCompileInputs.cache
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Vídeo\Aula 07\DemoIdentity\DemoIdentity\obj\Debug\netcoreapp2.0\DemoIdentity.AssemblyInfoInputs.cache
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Vídeo\Aula 07\DemoIdentity\DemoIdentity\obj\Debug\netcoreapp2.0\DemoIdentity.AssemblyInfo.cs

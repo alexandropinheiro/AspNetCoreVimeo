@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using StartupDemo.Models;
 
-namespace StartupDemo.ViewComponent
+namespace StartupDemo
 {
     public class CarrinhoViewComponent : ViewComponent
     {
@@ -13,6 +13,8 @@ namespace StartupDemo.ViewComponent
                 TotalItens = 10,
                 ValorTotal = 550
             };
+
+            return View(carrinho);
         }
     }    
 }

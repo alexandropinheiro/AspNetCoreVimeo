@@ -1,5 +1,13 @@
 D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\bin\Debug\netcoreapp2.1\StartupDemo.dll
 D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\bin\Debug\netcoreapp2.1\StartupDemo.Views.dll
+<<<<<<< HEAD
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.csprojAssemblyReference.cache
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.csproj.CoreCompileInputs.cache
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.RazorAssemblyInfo.cache
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.RazorAssemblyInfo.cs
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.AssemblyInfoInputs.cache
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.AssemblyInfo.cs
+=======
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.csprojAssemblyReference.cache
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.csproj.CoreCompileInputs.cache
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.RazorAssemblyInfo.cache
@@ -8,3 +16,36 @@ C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Vídeo\Aula 04\StartupDem
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.AssemblyInfo.cs
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.TagHelpers.input.cache
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.TagHelpers.output.cache
+>>>>>>> 11972530a138140853e5c7de81b73af10e7ea8af
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\bin\Debug\netcoreapp2.1\StartupDemo.deps.json
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\bin\Debug\netcoreapp2.1\StartupDemo.runtimeconfig.json
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\bin\Debug\netcoreapp2.1\StartupDemo.runtimeconfig.dev.json
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\bin\Debug\netcoreapp2.1\StartupDemo.pdb
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\bin\Debug\netcoreapp2.1\StartupDemo.Views.pdb
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.TagHelpers.input.cache
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.TagHelpers.output.cache
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.RazorCoreGenerate.cache
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\Razor\Views\Eventos\Create.g.cshtml.cs
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\Razor\Views\Eventos\Delete.g.cshtml.cs
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\Razor\Views\Eventos\Details.g.cshtml.cs
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\Razor\Views\Eventos\Edit.g.cshtml.cs
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\Razor\Views\Eventos\Index.g.cshtml.cs
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\Razor\Views\Eventos\_DadosEvento.g.cshtml.cs
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\Carrinho\Default.g.cshtml.cs
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\Razor\Views\Teste\Index.g.cshtml.cs
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.RazorTargetAssemblyInfo.cache
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.RazorTargetAssemblyInfo.cs
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.Views.pdb
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.dll
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.pdb
+D:\Aprendizado\Eduardo Pires\Vídeo\Aula 04\StartupDemo\StartupDemo\obj\Debug\netcoreapp2.1\StartupDemo.csproj.CopyComplete

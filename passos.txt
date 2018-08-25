@@ -1,0 +1,6 @@
+npm install -g yo
+npm install -g bower
+npm install -g generator-aspnet
+cd\
+http://go.microsoft.com/fwlink/?LinkID=798306&clcid=0x409
+(dotnet install SDK)

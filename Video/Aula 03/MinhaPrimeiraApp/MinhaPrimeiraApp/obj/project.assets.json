@@ -11500,23 +11500,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ALEXANDRORP_ADM\\.nuget\\packages\\": {},
+    "C:\\Users\\Alexandro e Fabiana\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Aprendizado\\Eduardo Pires\\Vídeo\\Aula 03\\MinhaPrimeiraApp\\MinhaPrimeiraApp\\MinhaPrimeiraApp.csproj",
+      "projectUniqueName": "c:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\Aula 03\\MinhaPrimeiraApp\\MinhaPrimeiraApp\\MinhaPrimeiraApp.csproj",
       "projectName": "MinhaPrimeiraApp",
-      "projectPath": "d:\\Aprendizado\\Eduardo Pires\\Vídeo\\Aula 03\\MinhaPrimeiraApp\\MinhaPrimeiraApp\\MinhaPrimeiraApp.csproj",
-      "packagesPath": "C:\\Users\\ALEXANDRORP_ADM\\.nuget\\packages\\",
-      "outputPath": "d:\\Aprendizado\\Eduardo Pires\\Vídeo\\Aula 03\\MinhaPrimeiraApp\\MinhaPrimeiraApp\\obj\\",
+      "projectPath": "c:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\Aula 03\\MinhaPrimeiraApp\\MinhaPrimeiraApp\\MinhaPrimeiraApp.csproj",
+      "packagesPath": "C:\\Users\\Alexandro e Fabiana\\.nuget\\packages\\",
+      "outputPath": "c:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\Aula 03\\MinhaPrimeiraApp\\MinhaPrimeiraApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ALEXANDRORP_ADM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alexandro e Fabiana\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

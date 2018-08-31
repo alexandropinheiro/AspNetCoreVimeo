@@ -1,0 +1,16 @@
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\ConsoleTeste\obj\Debug\netcoreapp2.1\ConsoleTeste.csprojAssemblyReference.cache
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\ConsoleTeste\obj\Debug\netcoreapp2.1\ConsoleTeste.csproj.CoreCompileInputs.cache
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\ConsoleTeste\obj\Debug\netcoreapp2.1\ConsoleTeste.AssemblyInfoInputs.cache
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\ConsoleTeste\obj\Debug\netcoreapp2.1\ConsoleTeste.AssemblyInfo.cs
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\ConsoleTeste\bin\Debug\netcoreapp2.1\ConsoleTeste.deps.json
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\ConsoleTeste\bin\Debug\netcoreapp2.1\ConsoleTeste.runtimeconfig.json
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\ConsoleTeste\bin\Debug\netcoreapp2.1\ConsoleTeste.runtimeconfig.dev.json
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\ConsoleTeste\bin\Debug\netcoreapp2.1\ConsoleTeste.dll
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\ConsoleTeste\bin\Debug\netcoreapp2.1\ConsoleTeste.pdb
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\ConsoleTeste\bin\Debug\netcoreapp2.1\Eventos.IO.Domain.Core.dll
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\ConsoleTeste\bin\Debug\netcoreapp2.1\Eventos.IO.Domain.dll
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\ConsoleTeste\bin\Debug\netcoreapp2.1\Eventos.IO.Domain.pdb
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\ConsoleTeste\bin\Debug\netcoreapp2.1\Eventos.IO.Domain.Core.pdb
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\ConsoleTeste\obj\Debug\netcoreapp2.1\ConsoleTeste.csproj.CopyComplete
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\ConsoleTeste\obj\Debug\netcoreapp2.1\ConsoleTeste.dll
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\ConsoleTeste\obj\Debug\netcoreapp2.1\ConsoleTeste.pdb

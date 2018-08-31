@@ -4,9 +4,11 @@ using System.Text;
 
 namespace Eventos.IO.Domain.Core.Models
 {
-    public abstract class Entity
+    public abstract class Entity<T> : AbstractValidator<T> where T : Entity<T>
     {
         public Guid Id { get; protected set; }
+
+        public abstract bool EhValido();
 
         public override bool Equals(object obj)
         {

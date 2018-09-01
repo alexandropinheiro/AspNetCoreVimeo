@@ -7,15 +7,15 @@ namespace ConsoleTeste
     {
         static void Main(string[] args)
         {
-            var evento = new Evento("No", DateTime.Now, DateTime.Now, true, 50, false, "Alexandro Pinheiro");
+            var evento = new Evento("No", DateTime.Now, DateTime.Now, true, 50, false, "");
             var evento2 = evento;
             Console.WriteLine(evento.ToString());
             
-            if (!evento.EhValido())
+            if (!evento.ValidationResult.IsValid)
             {
-                foreach(var erro in evento.ErrosValidacao)
+                foreach(var erro in evento.ValidationResult.Errors)
                 {
-                    Console.WriteLine(erro.Value);
+                    Console.WriteLine(erro.ErrorMessage);
                 }
             }
 

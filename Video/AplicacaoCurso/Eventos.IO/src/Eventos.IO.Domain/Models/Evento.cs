@@ -1,11 +1,12 @@
 ﻿using Eventos.IO.Domain.Core.Models;
+using FluentValidation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace Eventos.IO.Domain.Models
 {
-    public class Evento : Entity
+    public class Evento : Entity<Evento>
     {
         public Evento(string nome, 
                       DateTime dataInicio, 
@@ -51,17 +52,76 @@ namespace Eventos.IO.Domain.Models
         public override bool EhValido()
         {
             Validar();
-            return false;
+            return ValidationResult.IsValid;
         }
 
         #region Validações
         private void Validar()
         {
+            ValidarNome();
+            ValidarValor();
+            ValidarData();
+            ValidarLocal();
+
+            ValidationResult = Validate(this);
+        }
+
+        private void ValidarNome()
+        {
+            RuleFor(c => c.Nome)
+                            .NotEmpty().WithMessage("O nome do evento não pode ser nulo")
+                            .Length(2, 150).WithMessage("O nome do evento deve ter entre 2 e 150 caracteres");
+        }
+
+        private void ValidarValor()
+        {
+            if (!Gratuito)
+            {
+                RuleFor(c => c.Valor)
+                    .ExclusiveBetween(1, 50000)
+                    .WithMessage("O valor deve estar entre 1,00 e 50.000,00");
+            }
+            else
+            {
+                RuleFor(c => c.Valor)
+                    .ExclusiveBetween(0,0).When(e => e.Gratuito)
+                    .WithMessage("Para evento gratuito o valor deve ser zero");
+            }
+            
+        }
+
+        private void ValidarData()
+        {
+            RuleFor(c => c.DataInicio)
+                .GreaterThan(c => DataFim)
+                .WithMessage("A data de início deve ser menor do que a data final");
+
+            RuleFor(c => c.DataInicio)
+                .LessThan(c => DataInicio)
+                .WithMessage("A data de início deve ser menor do que a data atual");
+
+        }
+
+        private void ValidarLocal()
+        {
+            if (Online)
+            {
+                RuleFor(c => c.Endereco)
+                .Null().When(c => c.Online)
+                .WithMessage("O evento não deve possuir endereço se for Online.");
+            }
+            else { 
+                RuleFor(c => c.Endereco)
+                .NotNull().When(c => c.Online == false)
+                .WithMessage("O evento deve possuir um endereço.");
+            }
+            
+
+            RuleFor(c => c.DataInicio)
+                .LessThan(c => DataInicio)
+                .WithMessage("A data de início deve ser menor do que a data atual");
 
         }
         #endregion
-        // Instalar o FluentValidation no Package Managment Console
-        //Install-Package FluentValidation -pre
-        // Tanto no Domain quanto no Domain.Core
     }
 }

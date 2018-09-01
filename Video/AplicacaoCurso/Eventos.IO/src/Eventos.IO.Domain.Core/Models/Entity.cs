@@ -1,18 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using FluentValidation;
+using FluentValidation.Results;
+using System;
 
 namespace Eventos.IO.Domain.Core.Models
 {
     public abstract class Entity<T> : AbstractValidator<T> where T : Entity<T>
     {
+        protected Entity()
+        {
+            ValidationResult = new ValidationResult();
+        }
+
         public Guid Id { get; protected set; }
 
         public abstract bool EhValido();
+        public ValidationResult ValidationResult { get; protected set; }
 
         public override bool Equals(object obj)
         {
-            var compareTo = obj as Entity;
+            var compareTo = obj as Entity<T>;
 
             if (ReferenceEquals(this, compareTo)) return true;
             if (ReferenceEquals(null, compareTo)) return false;
@@ -20,7 +26,7 @@ namespace Eventos.IO.Domain.Core.Models
             return Id.Equals(compareTo.Id);
         }
 
-        public static bool operator ==(Entity a, Entity b)
+        public static bool operator ==(Entity<T> a, Entity<T> b)
         {
             if (ReferenceEquals(a, null) && ReferenceEquals(b, null)) return true;
 
@@ -29,7 +35,7 @@ namespace Eventos.IO.Domain.Core.Models
             return a.Equals(b);
         }
 
-        public static bool operator !=(Entity a, Entity b)
+        public static bool operator !=(Entity<T> a, Entity<T> b)
         {
             return !a.Equals(b);
         }

@@ -1,5 +1,4 @@
-﻿using Eventos.IO.Domain.Core.Commands;
-using System;
+﻿using System;
 
 namespace Eventos.IO.Domain.Eventos.Commands
 {

@@ -8,10 +8,10 @@ namespace Eventos.IO.Domain.Eventos
 {
     public class Evento : Entity<Evento>
     {
-        public Evento(string nome, 
-                      DateTime dataInicio, 
-                      DateTime dataFim, 
-                      bool gratuito, 
+        public Evento(string nome,
+                      DateTime dataInicio,
+                      DateTime dataFim,
+                      bool gratuito,
                       decimal valor,
                       bool online,
                       string nomeEmpresa)
@@ -25,13 +25,18 @@ namespace Eventos.IO.Domain.Eventos
             Online = online;
             NomeEmpresa = nomeEmpresa;
 
-            ErrosValidacao = new Dictionary<string, string>(); 
+            ErrosValidacao = new Dictionary<string, string>();
 
             if (Nome.Length < 3)
                 ErrosValidacao.Add("Nome", "O nome do evento deve ter mais de três caracteres.");
 
             if (Gratuito && Valor != 0)
                 ErrosValidacao.Add("Valor", "Não pode ter valor se gratuito.");
+        }
+
+        private Evento()
+        {
+
         }
 
         public string Nome { get; private set; }
@@ -48,7 +53,7 @@ namespace Eventos.IO.Domain.Eventos
         public Endereco Endereco { get; private set; }
         public Organizador Organizador { get; private set; }
         public Dictionary<string, string> ErrosValidacao { get; set; }
-        
+
         public override bool EhValido()
         {
             Validar();
@@ -84,10 +89,10 @@ namespace Eventos.IO.Domain.Eventos
             else
             {
                 RuleFor(c => c.Valor)
-                    .ExclusiveBetween(0,0).When(e => e.Gratuito)
+                    .ExclusiveBetween(0, 0).When(e => e.Gratuito)
                     .WithMessage("Para evento gratuito o valor deve ser zero");
             }
-            
+
         }
 
         private void ValidarData()
@@ -110,12 +115,12 @@ namespace Eventos.IO.Domain.Eventos
                 .Null().When(c => c.Online)
                 .WithMessage("O evento não deve possuir endereço se for Online.");
             }
-            else { 
+            else {
                 RuleFor(c => c.Endereco)
                 .NotNull().When(c => c.Online == false)
                 .WithMessage("O evento deve possuir um endereço.");
             }
-            
+
 
             RuleFor(c => c.DataInicio)
                 .LessThan(c => DataInicio)
@@ -123,5 +128,40 @@ namespace Eventos.IO.Domain.Eventos
 
         }
         #endregion
+
+        public static class EventoFactory
+        {
+            public static Evento NovoEventoCompleto(Guid id,
+                                                    string nome,
+                                                    string descCurta,
+                                                    string descLonga,
+                                                    DateTime dataInicio,
+                                                    DateTime dataFim,
+                                                    bool gratuito,
+                                                    decimal valor,
+                                                    bool online,
+                                                    string nomeEmpresa,
+                                                    Guid? OrganizadorId)
+            {
+                var evento = new Evento()
+                {
+                    Id = id,
+                    Nome = nome,
+                    DataInicio = dataInicio,
+                    DataFim = dataFim,
+                    Gratuito = gratuito,
+                    Valor = valor,
+                    Online = online,
+                    NomeEmpresa = nomeEmpresa
+                };
+
+                if (OrganizadorId.HasValue)
+                {
+                    evento.Organizador = new Organizador(OrganizadorId.Value);
+                }
+
+                return evento;
+            }
+        }
     }
 }

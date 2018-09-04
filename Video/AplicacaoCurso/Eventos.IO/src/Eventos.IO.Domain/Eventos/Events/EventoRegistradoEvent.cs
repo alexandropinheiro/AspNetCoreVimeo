@@ -6,8 +6,6 @@ namespace Eventos.IO.Domain.Eventos.Events
     {
         public EventoRegistradoEvent(Guid id,
                                      string nome,
-                                     string descCurta,
-                                     string descLonga,
                                      DateTime dataInicio,
                                      DateTime dataFim,
                                      bool gratuito,
@@ -17,8 +15,6 @@ namespace Eventos.IO.Domain.Eventos.Events
         {
             Id = id;
             Nome = nome;
-            DescricaoCurta = descCurta;
-            DescricaoLonga = descLonga;
             DataInicio = dataInicio;
             DataFim = dataFim;
             Gratuito = gratuito;

@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="8.0.0" />
+    <PackageReference Include="ReSharper.FooDetector" Version="2018.1.0" />
   </ItemGroup>
 
   <ItemGroup>

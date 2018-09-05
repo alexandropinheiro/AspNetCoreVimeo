@@ -223,12 +223,6 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "ReSharper.FooDetector/2018.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Wave": "[12.0.0]"
-        }
-      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -444,22 +438,12 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "Wave/12.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/Net/_._": {}
-        },
-        "runtime": {
-          "lib/Net/_._": {}
-        }
-      },
       "Eventos.IO.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Eventos.IO.Domain.Core": "1.0.0",
-          "FluentValidation": "8.0.0",
-          "ReSharper.FooDetector": "2018.1.0"
+          "FluentValidation": "8.0.0"
         },
         "compile": {
           "bin/placeholder/Eventos.IO.Domain.dll": {}
@@ -472,8 +456,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "FluentValidation": "8.0.0",
-          "ReSharper.FooDetector": "2018.1.0"
+          "FluentValidation": "8.0.0"
         },
         "compile": {
           "bin/placeholder/Eventos.IO.Domain.Core.dll": {}
@@ -964,16 +947,6 @@
         "lib/netstandard1.0/_._",
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
-      ]
-    },
-    "ReSharper.FooDetector/2018.1.0": {
-      "sha512": "C3X+xAYy+wvQVAGVt4WylV1klFlSuIzaejxM5N6ZKzOoz8X+Mr929wsRw7w9BSgY4TI+g+uo6abdm5WXbEGONQ==",
-      "type": "package",
-      "path": "resharper.foodetector/2018.1.0",
-      "files": [
-        "DotFiles/ReSharper.FooDetector.dll",
-        "resharper.foodetector.2018.1.0.nupkg.sha512",
-        "resharper.foodetector.nuspec"
       ]
     },
     "System.Collections/4.3.0": {
@@ -2188,16 +2161,6 @@
         "version.txt"
       ]
     },
-    "Wave/12.0.0": {
-      "sha512": "DkNcZON52/urxx7CCLuQptasOjpxMbW3jklQGYtbeT8ASqMsmJE2T+BP3aMFPK/CSz3q2cKb1y6+XRDO7MNzNA==",
-      "type": "package",
-      "path": "wave/12.0.0",
-      "files": [
-        "lib/Net/_._",
-        "wave.12.0.0.nupkg.sha512",
-        "wave.nuspec"
-      ]
-    },
     "Eventos.IO.Domain/1.0.0": {
       "type": "project",
       "path": "../Eventos.IO.Domain/Eventos.IO.Domain.csproj",
@@ -2213,28 +2176,27 @@
     ".NETCoreApp,Version=v2.1": [
       "Eventos.IO.Domain >= 1.0.0",
       "FluentValidation >= 8.0.0",
-      "Microsoft.NETCore.App >= 2.1.0",
-      "ReSharper.FooDetector >= 2018.1.0"
+      "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alexandrorp\\.nuget\\packages\\": {},
+    "C:\\Users\\Alexandro e Fabiana\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Aprendizado\\Eduardo Pires\\Video\\AplicacaoCurso\\Eventos.IO\\src\\ConsoleTeste\\ConsoleTeste.csproj",
+      "projectUniqueName": "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\ConsoleTeste\\ConsoleTeste.csproj",
       "projectName": "ConsoleTeste",
-      "projectPath": "D:\\Aprendizado\\Eduardo Pires\\Video\\AplicacaoCurso\\Eventos.IO\\src\\ConsoleTeste\\ConsoleTeste.csproj",
-      "packagesPath": "C:\\Users\\alexandrorp\\.nuget\\packages\\",
-      "outputPath": "D:\\Aprendizado\\Eduardo Pires\\Video\\AplicacaoCurso\\Eventos.IO\\src\\ConsoleTeste\\obj\\",
+      "projectPath": "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\ConsoleTeste\\ConsoleTeste.csproj",
+      "packagesPath": "C:\\Users\\Alexandro e Fabiana\\.nuget\\packages\\",
+      "outputPath": "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\ConsoleTeste\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\alexandrorp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alexandro e Fabiana\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2242,14 +2204,13 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://tcerjvm21:8080/tfs/DefaultCollection/_packaging/PacotesTCE/nuget/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\Aprendizado\\Eduardo Pires\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj": {
-              "projectPath": "D:\\Aprendizado\\Eduardo Pires\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj"
+            "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj": {
+              "projectPath": "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj"
             }
           }
         }
@@ -2271,10 +2232,6 @@
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
-          },
-          "ReSharper.FooDetector": {
-            "target": "Package",
-            "version": "[2018.1.0, )"
           }
         },
         "imports": [
@@ -2284,17 +2241,5 @@
         "warn": true
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'Wave 12.0.0' foi restaurado usando '.NETFramework,Version=v4.6.1' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v2.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
-      "libraryId": "Wave",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.1"
-      ]
-    }
-  ]
+  }
 }

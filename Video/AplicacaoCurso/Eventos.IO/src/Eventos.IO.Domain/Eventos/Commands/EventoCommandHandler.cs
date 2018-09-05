@@ -3,6 +3,7 @@ using Eventos.IO.Domain.Core.Bus;
 using Eventos.IO.Domain.Core.Events;
 using Eventos.IO.Domain.Core.Notifications;
 using Eventos.IO.Domain.Eventos.Events;
+using Eventos.IO.Domain.Eventos.Repository;
 using Eventos.IO.Domain.Interfaces;
 using System;
 

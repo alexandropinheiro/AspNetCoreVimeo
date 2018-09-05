@@ -1,4 +1,5 @@
 ﻿using Eventos.IO.Domain.Core.Events;
+using System;
 
 namespace Eventos.IO.Domain.Eventos.Events
 {
@@ -11,17 +12,20 @@ namespace Eventos.IO.Domain.Eventos.Events
     {
         public void Handle(EventoRegistradoEvent message)
         {
-            // Enviar e-mail
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Evento registrado com sucesso.");
         }
 
         public void Handle(EventoAtualizadoEvent message)
         {
-            // Enviar e-mail
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Evento atualizado com sucesso.");
         }
 
         public void Handle(EventoExcluidoEvent message)
         {
-            // Enviar e-mail
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Evento excluído com sucesso.");
         }
     }
 }

@@ -15,3 +15,4 @@ C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Even
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Domain.Core\obj\Debug\netstandard2.0\Eventos.IO.Domain.Core.AssemblyInfo.cs
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Domain.Core\obj\Debug\netstandard2.0\Eventos.IO.Domain.Core.dll
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Domain.Core\obj\Debug\netstandard2.0\Eventos.IO.Domain.Core.pdb
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Domain.Core\obj\Debug\netstandard2.0\Eventos.IO.Domain.Core.csprojAssemblyReference.cache

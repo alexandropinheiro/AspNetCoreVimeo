@@ -8,7 +8,7 @@ namespace ConsoleTeste
     {
         public CommandResponse Commit()
         {
-            return new CommandResponse(true);
+            return new CommandResponse(false);
         }
 
         public void Dispose()

@@ -30,7 +30,8 @@ namespace ConsoleTeste
 
         public Evento GetById(Guid Id)
         {
-            return new Evento("Fake", DateTime.Now, DateTime.Now, true, 0, true, "Empresa");
+            return null;
+            //return new Evento("Fake", DateTime.Now, DateTime.Now, true, 0, true, "Empresa");
         }
 
         public void Remove(Guid Id)

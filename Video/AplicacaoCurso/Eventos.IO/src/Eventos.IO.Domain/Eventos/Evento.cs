@@ -48,11 +48,30 @@ namespace Eventos.IO.Domain.Eventos
         public decimal Valor { get; private set; }
         public bool Online { get; private set; }
         public string NomeEmpresa { get; private set; }
-        public Categoria Categoria { get; private set; }
-        public ICollection<Tags> Tags { get; private set; }
-        public Endereco Endereco { get; private set; }
-        public Organizador Organizador { get; private set; }
+        public bool Excluido { get; private set; }        
+        public ICollection<Tags> Tags { get; private set; }        
         public Dictionary<string, string> ErrosValidacao { get; set; }
+
+        public Guid? CategoriaId { get; private set; }
+        public Guid? EnderecoId { get; private set; }
+        public Guid OrganizadorId { get; private set; }
+
+        //EF Propriedades de navegação
+        public virtual Categoria Categoria { get; private set; }
+        public virtual Endereco Endereco { get; private set; }
+        public virtual Organizador Organizador { get; private set; }
+
+        public void AtribuirEndereco(Endereco endereco)
+        {
+            if (!endereco.EhValido()) return;
+            Endereco = endereco;
+        }
+
+        public void AtribuirCategoria(Categoria categoria)
+        {
+            if (!categoria.EhValido()) return;
+            Categoria = categoria;
+        }
 
         public override bool EhValido()
         {
@@ -67,8 +86,11 @@ namespace Eventos.IO.Domain.Eventos
             ValidarValor();
             ValidarData();
             ValidarLocal();
-
+            ValidarNomeEmpresa();
             ValidationResult = Validate(this);
+
+            // Validações adicionais
+            ValidarEndereco();
         }
 
         private void ValidarNome()
@@ -127,6 +149,24 @@ namespace Eventos.IO.Domain.Eventos
                 .WithMessage("A data de início deve ser menor do que a data atual");
 
         }
+
+        private void ValidarNomeEmpresa()
+        {
+            RuleFor(c => c.NomeEmpresa)
+                .NotEmpty().WithMessage("O nome do organizador precisa ser fornecido")
+                .Length(2, 150).WithMessage("O nome do organizador precisa ter entre 2 e 150 caracteres");
+        }
+
+        private void ValidarEndereco()
+        {
+            if (Online) return;
+            if (Endereco.EhValido()) return;
+
+            foreach(var error in Endereco.ValidationResult.Errors)
+            {
+                ValidationResult.Errors.Add(error);
+            }
+        }
         #endregion
 
         public static class EventoFactory
@@ -141,7 +181,9 @@ namespace Eventos.IO.Domain.Eventos
                                                     decimal valor,
                                                     bool online,
                                                     string nomeEmpresa,
-                                                    Guid? OrganizadorId)
+                                                    Guid? OrganizadorId,
+                                                    Endereco endereco,
+                                                    Categoria categoria)
             {
                 var evento = new Evento()
                 {
@@ -152,13 +194,16 @@ namespace Eventos.IO.Domain.Eventos
                     Gratuito = gratuito,
                     Valor = valor,
                     Online = online,
-                    NomeEmpresa = nomeEmpresa
+                    NomeEmpresa = nomeEmpresa,
+                    Endereco = endereco,
+                    Categoria = categoria
                 };
 
                 if (OrganizadorId.HasValue)
-                {
                     evento.Organizador = new Organizador(OrganizadorId.Value);
-                }
+
+                if (online)
+                    evento.Endereco = null;
 
                 return evento;
             }

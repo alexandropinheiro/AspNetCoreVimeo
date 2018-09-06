@@ -73,6 +73,12 @@ namespace Eventos.IO.Domain.Eventos
             Categoria = categoria;
         }
 
+        public void ExcluirEvento()
+        {
+            //TODO: Deve validar alguma regra
+            Excluido = true;
+        }
+
         public override bool EhValido()
         {
             Validar();
@@ -183,7 +189,7 @@ namespace Eventos.IO.Domain.Eventos
                                                     string nomeEmpresa,
                                                     Guid? OrganizadorId,
                                                     Endereco endereco,
-                                                    Categoria categoria)
+                                                    Guid categoriaId)
             {
                 var evento = new Evento()
                 {
@@ -196,7 +202,7 @@ namespace Eventos.IO.Domain.Eventos
                     Online = online,
                     NomeEmpresa = nomeEmpresa,
                     Endereco = endereco,
-                    Categoria = categoria
+                    CategoriaId = categoriaId
                 };
 
                 if (OrganizadorId.HasValue)

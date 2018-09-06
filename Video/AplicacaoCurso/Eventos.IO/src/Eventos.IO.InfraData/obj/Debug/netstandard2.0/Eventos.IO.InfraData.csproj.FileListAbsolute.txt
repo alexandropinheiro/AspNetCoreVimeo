@@ -1,0 +1,15 @@
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.InfraData\obj\Debug\netstandard2.0\Eventos.IO.InfraData.csprojAssemblyReference.cache
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.InfraData\obj\Debug\netstandard2.0\Eventos.IO.InfraData.csproj.CoreCompileInputs.cache
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.InfraData\obj\Debug\netstandard2.0\Eventos.IO.InfraData.AssemblyInfoInputs.cache
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.InfraData\obj\Debug\netstandard2.0\Eventos.IO.InfraData.AssemblyInfo.cs
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.InfraData\bin\Debug\netstandard2.0\appsettings.json
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.InfraData\bin\Debug\netstandard2.0\Eventos.IO.InfraData.deps.json
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.InfraData\bin\Debug\netstandard2.0\Eventos.IO.InfraData.dll
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.InfraData\bin\Debug\netstandard2.0\Eventos.IO.InfraData.pdb
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.InfraData\bin\Debug\netstandard2.0\Eventos.IO.Domain.Core.dll
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.InfraData\bin\Debug\netstandard2.0\Eventos.IO.Domain.dll
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.InfraData\bin\Debug\netstandard2.0\Eventos.IO.Domain.Core.pdb
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.InfraData\bin\Debug\netstandard2.0\Eventos.IO.Domain.pdb
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.InfraData\obj\Debug\netstandard2.0\Eventos.IO.InfraData.csproj.CopyComplete
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.InfraData\obj\Debug\netstandard2.0\Eventos.IO.InfraData.dll
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.InfraData\obj\Debug\netstandard2.0\Eventos.IO.InfraData.pdb

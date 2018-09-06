@@ -1,7 +1,7 @@
 ﻿using Eventos.IO.Domain.Core.Models;
 using FluentValidation;
 using System;
-
+using System.Collections.Generic;
 
 namespace Eventos.IO.Domain.Eventos
 {
@@ -16,7 +16,6 @@ namespace Eventos.IO.Domain.Eventos
         public string Estado { get; private set; }
         public Guid? EventoId { get; private set; }
 
-        //EF Propriedade de Navegação
         public virtual Evento Evento { get; private set; }
 
         //Construtor para o EF

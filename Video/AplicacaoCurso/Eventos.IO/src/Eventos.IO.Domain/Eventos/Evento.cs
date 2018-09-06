@@ -57,9 +57,9 @@ namespace Eventos.IO.Domain.Eventos
         public Guid OrganizadorId { get; private set; }
 
         //EF Propriedades de navegação
-        public virtual Categoria Categoria { get; private set; }
-        public virtual Endereco Endereco { get; private set; }
+        public virtual Categoria Categoria { get; private set; }        
         public virtual Organizador Organizador { get; private set; }
+        public virtual Endereco Endereco { get; set; }
 
         public void AtribuirEndereco(Endereco endereco)
         {
@@ -206,13 +206,13 @@ namespace Eventos.IO.Domain.Eventos
                 };
 
                 if (OrganizadorId.HasValue)
-                    evento.Organizador = new Organizador(OrganizadorId.Value);
+                    evento.OrganizadorId = OrganizadorId.Value;
 
                 if (online)
                     evento.Endereco = null;
 
                 return evento;
             }
-        }
+        }        
     }
 }

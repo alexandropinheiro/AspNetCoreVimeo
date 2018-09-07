@@ -1,5 +1,7 @@
 ﻿using Eventos.IO.Domain.Eventos;
 using Eventos.IO.Domain.Organizadores;
+using Eventos.IO.InfraData.Extensions;
+using Eventos.IO.InfraData.Mappings;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System.IO;
@@ -14,109 +16,11 @@ namespace Eventos.IO.InfraData.Context
         public DbSet<Endereco> Enderecos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            #region FluentApi
-            
-            #region Evento
-
-            modelBuilder.Entity<Evento>()
-                .Property(e => e.Nome)
-                .HasColumnType("varchar(150)")
-                .IsRequired();
-
-            modelBuilder.Entity<Evento>()
-                .Property(e => e.DescricaoCurta)
-                .HasColumnType("varchar(150)")
-                .IsRequired();
-
-            modelBuilder.Entity<Evento>()
-                .Property(e => e.DescricaoLonga)
-                .HasColumnType("varchar(max)")
-                .IsRequired();
-
-            modelBuilder.Entity<Evento>()
-                .Property(e => e.NomeEmpresa)
-                .HasColumnType("varchar(150)")
-                .IsRequired();
-
-            modelBuilder.Entity<Evento>()
-                .Ignore(e => e.ValidationResult);
-
-            modelBuilder.Entity<Evento>()
-                .Ignore(e => e.ErrosValidacao);
-
-            modelBuilder.Entity<Evento>()
-                .Ignore(e => e.Tags);
-
-            modelBuilder.Entity<Evento>()
-                .Ignore(e => e.CascadeMode);
-
-            modelBuilder.Entity<Evento>()
-                .ToTable("Eventos");
-
-            modelBuilder.Entity<Evento>()
-                .HasOne(e => e.Organizador)
-                .WithMany(o => o.Eventos)
-                .HasForeignKey(e => e.OrganizadorId);
-
-            modelBuilder.Entity<Evento>()
-                .HasOne(e => e.Categoria)
-                .WithMany(o => o.Eventos)
-                .HasForeignKey(e => e.CategoriaId)
-                .IsRequired(false);
-
-            #endregion
-
-            #region Endereço
-
-            modelBuilder.Entity<Endereco>()
-                .HasOne(c => c.Evento)
-                .WithOne(c => c.Endereco)
-                .HasForeignKey<Endereco>(c => c.EventoId)
-                .IsRequired(false);
-
-            modelBuilder.Entity<Evento>()
-                .Ignore(e => e.ValidationResult);
-
-            modelBuilder.Entity<Evento>()
-                .Ignore(e => e.Tags);
-
-            modelBuilder.Entity<Evento>()
-                .Ignore(e => e.CascadeMode);
-
-            modelBuilder.Entity<Evento>()
-                .ToTable("Enderecos");
-
-            #endregion
-
-            #region Organizador
-
-            modelBuilder.Entity<Organizador>()
-                .Ignore(e => e.ValidationResult);
-            
-            modelBuilder.Entity<Organizador>()
-                .Ignore(e => e.CascadeMode);
-
-            modelBuilder.Entity<Organizador>()
-                .ToTable("Organizadores");
-
-            #endregion
-
-            #region Categoria
-
-            modelBuilder.Entity<Categoria>()
-                .Ignore(e => e.ValidationResult);
-
-            modelBuilder.Entity<Categoria>()
-                .Ignore(e => e.CascadeMode);
-
-            modelBuilder.Entity<Categoria>()
-                .ToTable("Categorias");
-
-            #endregion
-
-            #endregion
-
+        {            
+            modelBuilder.AddConfiguration(new EventoMapping());
+            modelBuilder.AddConfiguration(new EnderecoMapping());
+            modelBuilder.AddConfiguration(new OrganizadorMapping());
+            modelBuilder.AddConfiguration(new CategoriaMapping());
             base.OnModelCreating(modelBuilder);
         }
 

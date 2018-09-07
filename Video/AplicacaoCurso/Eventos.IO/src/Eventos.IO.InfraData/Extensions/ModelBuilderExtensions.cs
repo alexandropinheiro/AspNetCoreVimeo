@@ -1,11 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Eventos.IO.InfraData.Extensions
 {
-    public abstract class ModelBuilderExtensions
+    public static class ModelBuilderExtensions
     {
         public static void AddConfiguration<TEntity>(this ModelBuilder modelBuilder, EntityTypeConfiguration<TEntity> configuration) where TEntity : class
         {

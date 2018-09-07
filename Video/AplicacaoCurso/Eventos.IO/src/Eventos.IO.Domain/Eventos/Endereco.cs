@@ -1,7 +1,6 @@
 ﻿using Eventos.IO.Domain.Core.Models;
 using FluentValidation;
 using System;
-using System.Collections.Generic;
 
 namespace Eventos.IO.Domain.Eventos
 {

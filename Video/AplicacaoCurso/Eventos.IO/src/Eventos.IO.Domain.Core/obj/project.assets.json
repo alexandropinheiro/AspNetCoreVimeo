@@ -1659,23 +1659,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alexandrorp\\.nuget\\packages\\": {},
+    "C:\\Users\\Alexandro e Fabiana\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Aprendizado\\Eduardo Pires\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj",
+      "projectUniqueName": "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj",
       "projectName": "Eventos.IO.Domain.Core",
-      "projectPath": "D:\\Aprendizado\\Eduardo Pires\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj",
-      "packagesPath": "C:\\Users\\alexandrorp\\.nuget\\packages\\",
-      "outputPath": "D:\\Aprendizado\\Eduardo Pires\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Domain.Core\\obj\\",
+      "projectPath": "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj",
+      "packagesPath": "C:\\Users\\Alexandro e Fabiana\\.nuget\\packages\\",
+      "outputPath": "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Domain.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\alexandrorp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alexandro e Fabiana\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1683,7 +1683,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://tcerjvm21:8080/tfs/DefaultCollection/_packaging/PacotesTCE/nuget/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

@@ -1,0 +1,6 @@
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Application\bin\Debug\netstandard2.0\Eventos.IO.Application.deps.json
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Application\bin\Debug\netstandard2.0\Eventos.IO.Application.dll
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Application\obj\Debug\netstandard2.0\Eventos.IO.Application.csprojAssemblyReference.cache
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Application\obj\Debug\netstandard2.0\Eventos.IO.Application.csproj.CoreCompileInputs.cache
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Application\obj\Debug\netstandard2.0\Eventos.IO.Application.AssemblyInfoInputs.cache
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Application\obj\Debug\netstandard2.0\Eventos.IO.Application.AssemblyInfo.cs

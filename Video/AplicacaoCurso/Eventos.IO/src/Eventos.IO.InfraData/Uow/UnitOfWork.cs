@@ -1,9 +1,6 @@
 ﻿using Eventos.IO.Domain.Core.Commands;
 using Eventos.IO.Domain.Interfaces;
 using Eventos.IO.InfraData.Context;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Eventos.IO.InfraData.Uow
 {

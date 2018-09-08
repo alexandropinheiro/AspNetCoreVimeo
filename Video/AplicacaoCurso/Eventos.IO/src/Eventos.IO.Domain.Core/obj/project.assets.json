@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "FluentValidation/8.0.0": {
+      "FluentValidation/8.0.100": {
         "type": "package",
         "dependencies": {
           "System.Collections.Concurrent": "4.3.0",
@@ -268,13 +268,13 @@
     }
   },
   "libraries": {
-    "FluentValidation/8.0.0": {
-      "sha512": "Z63O9uqIVE8c4hJNCUv0plWLQmMuIvKhfnm6MfiCqSX+u0q0DHki3BFvhJlRNJXtI5w9xFgNvtsgiuTjbp+VFA==",
+    "FluentValidation/8.0.100": {
+      "sha512": "kGyYfxWWsLawTXnPrZ6l82Mqe7n3gHoFDqPalrCzpsqzDP6Jthx8gnMvSrcsaDeeEpR6i6SRsWdX4NxQtIKd+Q==",
       "type": "package",
-      "path": "fluentvalidation/8.0.0",
+      "path": "fluentvalidation/8.0.100",
       "files": [
         ".signature.p7s",
-        "fluentvalidation.8.0.0.nupkg.sha512",
+        "fluentvalidation.8.0.100.nupkg.sha512",
         "fluentvalidation.nuspec",
         "lib/net45/FluentValidation.dll",
         "lib/net45/FluentValidation.xml",
@@ -1654,7 +1654,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "FluentValidation >= 8.0.0",
+      "FluentValidation >= 8.0.100",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -1701,7 +1701,7 @@
         "dependencies": {
           "FluentValidation": {
             "target": "Package",
-            "version": "[8.0.0, )"
+            "version": "[8.0.100, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",

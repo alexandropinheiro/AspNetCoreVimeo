@@ -5,6 +5,13 @@ namespace Eventos.IO.Application.ViewModels
 {
     public class EventoViewModel
     {
+        public EventoViewModel()
+        {
+            Id = new Guid();
+            Endereco = new EnderecoViewModel();
+            Categoria = new CategoriaViewModel();
+        }
+
         [Key]
         public Guid Id { get; set; }
 
@@ -44,5 +51,6 @@ namespace Eventos.IO.Application.ViewModels
         public string NomeEmpresa { get; set; }
 
         public EnderecoViewModel Endereco { get; set; }
+        public CategoriaViewModel Categoria { get; set; }
     }
 }

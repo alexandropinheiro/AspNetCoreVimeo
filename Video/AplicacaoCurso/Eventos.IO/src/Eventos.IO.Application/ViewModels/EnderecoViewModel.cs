@@ -6,6 +6,11 @@ namespace Eventos.IO.Application.ViewModels
 {
     public class EnderecoViewModel
     {
+        public EnderecoViewModel()
+        {
+            Id = new Guid();
+        }
+
         public SelectList Estados()
         {
             return new SelectList(EstadosViewModel.ListarEstados(), "Uf", "Nome");
@@ -20,5 +25,10 @@ namespace Eventos.IO.Application.ViewModels
         public string Cep { get; set; }
         public string Cidade { get; set; }
         public string Estado { get; set; }
+
+        public override string ToString()
+        {
+            return $"{Logradouro}, {Numero} - {Bairro} - {Cidade} - {Estado}";
+        }
     }
 }

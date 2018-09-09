@@ -28,6 +28,8 @@ namespace Eventos.IO.Domain.Eventos.Commands
 
         public void Handle(RegistrarEventoCommand message)
         {
+            var endereco = new Endereco(message.Endereco.Id, message.Endereco.Logradouro, message.Endereco.Numero, message.Endereco.Complemento, message.Endereco.Bairro, message.Endereco.Cep, message.Endereco.Cidade, message.Endereco.Estado, message.Endereco.EventoId.Value);
+
             var evento = Evento.EventoFactory.NovoEventoCompleto(message.Id,
                                                                  message.Nome,
                                                                  message.DescricaoCurta,
@@ -39,7 +41,7 @@ namespace Eventos.IO.Domain.Eventos.Commands
                                                                  message.Online,
                                                                  message.NomeEmpresa,
                                                                  message.OrganizadorId, 
-                                                                 message.Endereco,
+                                                                 endereco,
                                                                  message.CategoriaId);
 
             if (!evento.EhValido())

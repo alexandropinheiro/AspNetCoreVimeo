@@ -5,17 +5,21 @@ namespace Eventos.IO.Domain.Eventos.Commands
     public class RegistrarEventoCommand : BaseEventoCommand
     {
         public RegistrarEventoCommand(string nome,
-                      DateTime dataInicio,
-                      DateTime dataFim,
-                      bool gratuito,
-                      decimal valor,
-                      bool online,
-                      string nomeEmpresa,
-                      Guid organizadorId,
-                      Endereco endereco,
-                      Guid categoriaId)
+                                      string descricaoCurta,
+                                      string descricaoLonga,
+                                      DateTime dataInicio,
+                                      DateTime dataFim,
+                                      bool gratuito,
+                                      decimal valor,
+                                      bool online,
+                                      string nomeEmpresa,
+                                      Guid organizadorId,
+                                      Guid categoriaId,
+                                      IncluirEnderecoEventoCommand endereco)
         {
             Nome = nome;
+            DescricaoCurta = descricaoCurta;
+            DescricaoLonga = descricaoLonga;
             DataInicio = dataInicio;
             DataFim = dataFim;
             Gratuito = gratuito;
@@ -23,8 +27,10 @@ namespace Eventos.IO.Domain.Eventos.Commands
             Online = online;
             NomeEmpresa = nomeEmpresa;
             OrganizadorId = organizadorId;
-            Endereco = endereco;
             CategoriaId = categoriaId;
+            Endereco = endereco;
         }
+
+        public IncluirEnderecoEventoCommand Endereco { get; private set; }
     }
 }

@@ -8,6 +8,7 @@ using Eventos.IO.Domain.Eventos.Commands;
 using Eventos.IO.Domain.Eventos.Events;
 using Eventos.IO.Domain.Eventos.Repository;
 using Eventos.IO.Domain.Interfaces;
+using Eventos.IO.Infra.CrossCutting.Bus;
 using Eventos.IO.InfraData.Context;
 using Eventos.IO.InfraData.Repository;
 using Eventos.IO.InfraData.Uow;
@@ -41,7 +42,7 @@ namespace Eventos.IO.Infra.CrossCutting.IoC
             services.AddScoped<EventosContext>();
 
             // Infra - Bus
-            //services.AddScoped<IBus, InMemoryBus>();
+            services.AddScoped<IBus, InMemoryBus>();
         }
     }
 }

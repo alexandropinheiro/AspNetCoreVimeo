@@ -11,8 +11,10 @@
         "dependencies": {
           "Eventos.IO.Application": "1.0.0",
           "Eventos.IO.Domain": "1.0.0",
+          "Eventos.IO.Infra.CrossCutting.Bus": "1.0.0",
           "Eventos.IO.InfraData": "1.0.0",
-          "NETStandard.Library": "2.0.3"
+          "NETStandard.Library": "2.0.3",
+          "System.ComponentModel": "4.3.0"
         },
         "runtime": {
           "Eventos.IO.Infra.CrossCutting.IoC.dll": {}
@@ -785,6 +787,14 @@
           "Eventos.IO.Domain.Core.dll": {}
         }
       },
+      "Eventos.IO.Infra.CrossCutting.Bus/1.0.0": {
+        "dependencies": {
+          "Eventos.IO.Domain.Core": "1.0.0"
+        },
+        "runtime": {
+          "Eventos.IO.Infra.CrossCutting.Bus.dll": {}
+        }
+      },
       "Eventos.IO.InfraData/1.0.0": {
         "dependencies": {
           "Eventos.IO.Domain": "1.0.0",
@@ -1338,6 +1348,11 @@
       "sha512": ""
     },
     "Eventos.IO.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Eventos.IO.Infra.CrossCutting.Bus/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -985,6 +985,19 @@
           "bin/placeholder/Eventos.IO.Domain.Core.dll": {}
         }
       },
+      "Eventos.IO.Infra.CrossCutting.Bus/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Eventos.IO.Domain.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Eventos.IO.Infra.CrossCutting.Bus.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Eventos.IO.Infra.CrossCutting.Bus.dll": {}
+        }
+      },
       "Eventos.IO.InfraData/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -3763,6 +3776,11 @@
       "path": "../Eventos.IO.Domain.Core/Eventos.IO.Domain.Core.csproj",
       "msbuildProject": "../Eventos.IO.Domain.Core/Eventos.IO.Domain.Core.csproj"
     },
+    "Eventos.IO.Infra.CrossCutting.Bus/1.0.0": {
+      "type": "project",
+      "path": "../Eventos.IO.Infra.CrossCutting.Bus/Eventos.IO.Infra.CrossCutting.Bus.csproj",
+      "msbuildProject": "../Eventos.IO.Infra.CrossCutting.Bus/Eventos.IO.Infra.CrossCutting.Bus.csproj"
+    },
     "Eventos.IO.InfraData/1.0.0": {
       "type": "project",
       "path": "../Eventos.IO.InfraData/Eventos.IO.InfraData.csproj",
@@ -3773,6 +3791,7 @@
     ".NETStandard,Version=v2.0": [
       "Eventos.IO.Application >= 1.0.0",
       "Eventos.IO.Domain >= 1.0.0",
+      "Eventos.IO.Infra.CrossCutting.Bus >= 1.0.0",
       "Eventos.IO.InfraData >= 1.0.0",
       "NETStandard.Library >= 2.0.3",
       "System.ComponentModel >= 4.3.0"
@@ -3813,6 +3832,9 @@
             },
             "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj": {
               "projectPath": "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj"
+            },
+            "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Infra.CrossCutting.Bus\\Eventos.IO.Infra.CrossCutting.Bus.csproj": {
+              "projectPath": "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Infra.CrossCutting.Bus\\Eventos.IO.Infra.CrossCutting.Bus.csproj"
             },
             "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.InfraData\\Eventos.IO.InfraData.csproj": {
               "projectPath": "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.InfraData\\Eventos.IO.InfraData.csproj"

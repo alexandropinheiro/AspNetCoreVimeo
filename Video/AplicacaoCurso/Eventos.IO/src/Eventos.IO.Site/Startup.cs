@@ -9,6 +9,11 @@ using Eventos.IO.Site.Models;
 using Eventos.IO.Site.Services;
 using Eventos.IO.Application.Interfaces;
 using Eventos.IO.Application.Services;
+using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Http;
+using Eventos.IO.Infra.CrossCutting.Bus;
+using Eventos.IO.Infra.CrossCutting.IoC;
+using AutoMapper;
 
 namespace Eventos.IO.Site
 {
@@ -19,7 +24,7 @@ namespace Eventos.IO.Site
             Configuration = configuration;
         }
 
-        public IConfiguration Configuration { get; }
+        public IConfiguration Configuration { get; }        
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -33,15 +38,20 @@ namespace Eventos.IO.Site
 
             // Add application services.
             services.AddTransient<IEmailSender, EmailSender>();
-
-            services.AddScoped<IEventoAppService, EventoAppService>();
-            
             services.AddMvc();
+            services.AddAutoMapper();   
+
+            RegisterServices(services);            
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, 
+                              IHostingEnvironment env,
+                              ILoggerFactory loggerFactory,
+                              IHttpContextAccessor accessor)
         {
+            loggerFactory.AddConsole(Configuration.GetSection("Logging"));
+            loggerFactory.AddDebug();
+
             if (env.IsDevelopment())
             {
                 app.UseBrowserLink();
@@ -54,7 +64,6 @@ namespace Eventos.IO.Site
             }
 
             app.UseStaticFiles();
-
             app.UseAuthentication();
 
             app.UseMvc(routes =>
@@ -63,6 +72,13 @@ namespace Eventos.IO.Site
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            InMemoryBus.ContainerAccessor = () => accessor.HttpContext.RequestServices;
+        }
+
+        private static void RegisterServices(IServiceCollection services)
+        {
+            NativeInjectorBootStrapper.RegisterServices(services);
         }
     }
 }

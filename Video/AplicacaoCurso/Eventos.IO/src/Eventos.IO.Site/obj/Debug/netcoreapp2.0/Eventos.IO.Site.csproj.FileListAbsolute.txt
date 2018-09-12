@@ -20,3 +20,7 @@ C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Even
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Site\obj\Debug\netcoreapp2.0\Eventos.IO.Site.dll
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Site\obj\Debug\netcoreapp2.0\Eventos.IO.Site.pdb
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Site\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Site\bin\Debug\netcoreapp2.0\Eventos.IO.Infra.CrossCutting.Bus.dll
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Site\bin\Debug\netcoreapp2.0\Eventos.IO.Infra.CrossCutting.IoC.dll
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Site\bin\Debug\netcoreapp2.0\Eventos.IO.Infra.CrossCutting.Bus.pdb
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Site\bin\Debug\netcoreapp2.0\Eventos.IO.Infra.CrossCutting.IoC.pdb

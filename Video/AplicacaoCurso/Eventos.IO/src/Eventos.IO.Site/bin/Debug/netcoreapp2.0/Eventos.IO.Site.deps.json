@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "af3b46cd76a533742f2d9dd256f26817d6f7a897"
+    "signature": "73d9bcc87d29eb08f7983d7138169e3e6d98ad72"
   },
   "compilationOptions": {
     "defines": [
@@ -24,7 +24,10 @@
     ".NETCoreApp,Version=v2.0": {
       "Eventos.IO.Site/1.0.0": {
         "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "5.0.1",
           "Eventos.IO.Application": "1.0.0",
+          "Eventos.IO.Infra.CrossCutting.Bus": "1.0.0",
+          "Eventos.IO.Infra.CrossCutting.IoC": "1.0.0",
           "Eventos.IO.InfraData": "1.0.0",
           "Microsoft.AspNetCore.All": "2.0.9",
           "Microsoft.EntityFrameworkCore.Tools": "2.0.3",
@@ -50,6 +53,21 @@
         },
         "compile": {
           "lib/netcoreapp2.0/AutoMapper.dll": {}
+        }
+      },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/5.0.1": {
+        "dependencies": {
+          "AutoMapper": "7.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
       "FluentValidation/8.0.100": {
@@ -4722,6 +4740,32 @@
           "Eventos.IO.Domain.Core.dll": {}
         }
       },
+      "Eventos.IO.Infra.CrossCutting.Bus/1.0.0": {
+        "dependencies": {
+          "Eventos.IO.Domain.Core": "1.0.0"
+        },
+        "runtime": {
+          "Eventos.IO.Infra.CrossCutting.Bus.dll": {}
+        },
+        "compile": {
+          "Eventos.IO.Infra.CrossCutting.Bus.dll": {}
+        }
+      },
+      "Eventos.IO.Infra.CrossCutting.IoC/1.0.0": {
+        "dependencies": {
+          "Eventos.IO.Application": "1.0.0",
+          "Eventos.IO.Domain": "1.0.0",
+          "Eventos.IO.Infra.CrossCutting.Bus": "1.0.0",
+          "Eventos.IO.InfraData": "1.0.0",
+          "System.ComponentModel": "4.3.0"
+        },
+        "runtime": {
+          "Eventos.IO.Infra.CrossCutting.IoC.dll": {}
+        },
+        "compile": {
+          "Eventos.IO.Infra.CrossCutting.IoC.dll": {}
+        }
+      },
       "Eventos.IO.InfraData/1.0.0": {
         "dependencies": {
           "Eventos.IO.Domain": "1.0.0",
@@ -4928,6 +4972,13 @@
       "sha512": "sha512-6xHbhsW09sWjjYuE1sqhYn25PQzB6UEUVPME5uhlaIz2NR2+L3+FGbVxvknJKug1BLp6VTLxDb5RcGXKMm0ieQ==",
       "path": "automapper/7.0.1",
       "hashPath": "automapper.7.0.1.nupkg.sha512"
+    },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7MIq6D/ax3964iHXbL1L2ldUvl6IlKp0p1GZFzr6vlIhEVyp4CgJwOpisRLvIO7dP+kDtbY3Hb9yuPNCkfyBFg==",
+      "path": "automapper.extensions.microsoft.dependencyinjection/5.0.1",
+      "hashPath": "automapper.extensions.microsoft.dependencyinjection.5.0.1.nupkg.sha512"
     },
     "FluentValidation/8.0.100": {
       "type": "package",
@@ -7082,6 +7133,16 @@
       "sha512": ""
     },
     "Eventos.IO.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Eventos.IO.Infra.CrossCutting.Bus/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Eventos.IO.Infra.CrossCutting.IoC/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

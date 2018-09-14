@@ -1,15 +1,16 @@
 ﻿using System;
 using Eventos.IO.Application.Interfaces;
 using Eventos.IO.Application.ViewModels;
+using Eventos.IO.Domain.Core.Notifications;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Eventos.IO.Site.Controllers
 {
-    public class EventosController : Controller
+    public class EventosController : BaseController
     {
         private readonly IEventoAppService _eventoAppService;
 
-        public EventosController(IEventoAppService eventoAppService)
+        public EventosController(IEventoAppService eventoAppService, IDomainNotificationHandler<DomainNotification> notifications) : base(notifications)
         {
             _eventoAppService = eventoAppService;
         }
@@ -45,6 +46,11 @@ namespace Eventos.IO.Site.Controllers
             if (!ModelState.IsValid) return View(eventoViewModel);
 
             _eventoAppService.Registrar(eventoViewModel);
+
+            ViewBag.RetornoPost = OperacaoValida() ? 
+                "success,Evento registrado com sucesso!" : 
+                "error,Evento não registrado! Verifique as mensagens.";
+
             return View(eventoViewModel);
         }
 
@@ -67,7 +73,11 @@ namespace Eventos.IO.Site.Controllers
             if (!ModelState.IsValid) return View(eventoViewModel);
 
             _eventoAppService.Atualizar(eventoViewModel);
-            //TODO: Validar s ea operação ocorreu com sucesso.
+
+            ViewBag.RetornoPost = OperacaoValida() ?
+                "success,Evento registrado com sucesso!" :
+                "error,Evento não pode ser atualizado! Verifique as mensagens.";
+
             return View(eventoViewModel);
         }
 

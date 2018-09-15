@@ -3,6 +3,7 @@ using Eventos.IO.Domain.Core.Bus;
 using Eventos.IO.Domain.Core.Events;
 using Eventos.IO.Domain.Core.Notifications;
 using Eventos.IO.Domain.Interfaces;
+using Eventos.IO.Domain.Organizadores.Events;
 using Eventos.IO.Domain.Organizadores.Repository;
 using System.Linq;
 
@@ -44,7 +45,7 @@ namespace Eventos.IO.Domain.Organizadores.Commands
 
             if (Commit())
             {
-                _bus.RaiseEvent(new DomainNotification(message.MessageType, "CPF ou E-mail já utilizados"));
+                _bus.RaiseEvent(new OrganizadorRegistradoEvent(organizador.Id, organizador.Nome, organizador.Email, organizador.Cpf));
             }
         }
     }

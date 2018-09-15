@@ -14,6 +14,7 @@ using Microsoft.AspNetCore.Http;
 using Eventos.IO.Infra.CrossCutting.Bus;
 using Eventos.IO.Infra.CrossCutting.IoC;
 using AutoMapper;
+using Eventos.IO.Domain.Interfaces;
 
 namespace Eventos.IO.Site
 {
@@ -36,10 +37,12 @@ namespace Eventos.IO.Site
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
+            services.AddMvc();
+            services.AddAutoMapper();
+
             // Add application services.
             services.AddTransient<IEmailSender, EmailSender>();
-            services.AddMvc();
-            services.AddAutoMapper();   
+            services.AddScoped<IUser, AspNetUser>();
 
             RegisterServices(services);            
         }

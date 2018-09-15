@@ -7281,7 +7281,7 @@
       ]
     },
     "Microsoft.Extensions.PlatformAbstractions/1.1.0": {
-      "sha512": "UMlN++q5qqzQ2HH+uOrKxN5fmBXMQDhrYkSaPJxhmyzfJaFPirrVr1raim/Ocq1psAZoB9+7JSAf0GDAX35wUg==",
+      "sha512": "H6ZsQzxYw/6k2DfEQRXdC+vQ6obd6Uba3uGJrnJ2vG4PRXjQZ7seB13JdCfE72abp8E6Fk3gGgDzfJiLZi5ZpQ==",
       "type": "package",
       "path": "microsoft.extensions.platformabstractions/1.1.0",
       "files": [
@@ -13612,23 +13612,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ALEXANDRORP_ADM\\.nuget\\packages\\": {},
+    "C:\\Users\\Alexandro e Fabiana\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Aprendizado\\Eduardo Pires\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Site\\Eventos.IO.Site.csproj",
+      "projectUniqueName": "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Site\\Eventos.IO.Site.csproj",
       "projectName": "Eventos.IO.Site",
-      "projectPath": "D:\\Aprendizado\\Eduardo Pires\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Site\\Eventos.IO.Site.csproj",
-      "packagesPath": "C:\\Users\\ALEXANDRORP_ADM\\.nuget\\packages\\",
-      "outputPath": "D:\\Aprendizado\\Eduardo Pires\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Site\\obj\\",
+      "projectPath": "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Site\\Eventos.IO.Site.csproj",
+      "packagesPath": "C:\\Users\\Alexandro e Fabiana\\.nuget\\packages\\",
+      "outputPath": "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Site\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ALEXANDRORP_ADM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alexandro e Fabiana\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13641,17 +13641,17 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\Aprendizado\\Eduardo Pires\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Application\\Eventos.IO.Application.csproj": {
-              "projectPath": "D:\\Aprendizado\\Eduardo Pires\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Application\\Eventos.IO.Application.csproj"
+            "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Application\\Eventos.IO.Application.csproj": {
+              "projectPath": "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Application\\Eventos.IO.Application.csproj"
             },
-            "D:\\Aprendizado\\Eduardo Pires\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Infra.CrossCutting.Bus\\Eventos.IO.Infra.CrossCutting.Bus.csproj": {
-              "projectPath": "D:\\Aprendizado\\Eduardo Pires\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Infra.CrossCutting.Bus\\Eventos.IO.Infra.CrossCutting.Bus.csproj"
+            "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Infra.CrossCutting.Bus\\Eventos.IO.Infra.CrossCutting.Bus.csproj": {
+              "projectPath": "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Infra.CrossCutting.Bus\\Eventos.IO.Infra.CrossCutting.Bus.csproj"
             },
-            "D:\\Aprendizado\\Eduardo Pires\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Infra.CrossCutting.IoC\\Eventos.IO.Infra.CrossCutting.IoC.csproj": {
-              "projectPath": "D:\\Aprendizado\\Eduardo Pires\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Infra.CrossCutting.IoC\\Eventos.IO.Infra.CrossCutting.IoC.csproj"
+            "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Infra.CrossCutting.IoC\\Eventos.IO.Infra.CrossCutting.IoC.csproj": {
+              "projectPath": "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Infra.CrossCutting.IoC\\Eventos.IO.Infra.CrossCutting.IoC.csproj"
             },
-            "D:\\Aprendizado\\Eduardo Pires\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.InfraData\\Eventos.IO.InfraData.csproj": {
-              "projectPath": "D:\\Aprendizado\\Eduardo Pires\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.InfraData\\Eventos.IO.InfraData.csproj"
+            "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.InfraData\\Eventos.IO.InfraData.csproj": {
+              "projectPath": "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.InfraData\\Eventos.IO.InfraData.csproj"
             }
           }
         }

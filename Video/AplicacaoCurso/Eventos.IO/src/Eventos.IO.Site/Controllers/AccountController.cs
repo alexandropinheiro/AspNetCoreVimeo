@@ -13,28 +13,34 @@ using Microsoft.Extensions.Options;
 using Eventos.IO.Site.Models;
 using Eventos.IO.Site.Models.AccountViewModels;
 using Eventos.IO.Site.Services;
+using Eventos.IO.Domain.Core.Notifications;
+using Eventos.IO.Application.Interfaces;
 
 namespace Eventos.IO.Site.Controllers
 {
     [Authorize]
     [Route("[controller]/[action]")]
-    public class AccountController : Controller
+    public class AccountController : BaseController
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly IEmailSender _emailSender;
         private readonly ILogger _logger;
+        private readonly IOrganizadorAppService _organizadorAppService;
 
         public AccountController(
             UserManager<ApplicationUser> userManager,
             SignInManager<ApplicationUser> signInManager,
             IEmailSender emailSender,
-            ILogger<AccountController> logger)
+            ILogger<AccountController> logger,
+            IDomainNotificationHandler<DomainNotification> notifications,
+            IOrganizadorAppService organizadorAppService) : base(notifications)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _emailSender = emailSender;
             _logger = logger;
+            _organizadorAppService = organizadorAppService;
         }
 
         [TempData]

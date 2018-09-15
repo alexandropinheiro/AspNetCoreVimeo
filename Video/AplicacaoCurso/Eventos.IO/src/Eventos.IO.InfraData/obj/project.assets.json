@@ -3798,23 +3798,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ALEXANDRORP_ADM\\.nuget\\packages\\": {},
+    "C:\\Users\\Alexandro e Fabiana\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Aprendizado\\Eduardo Pires\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.InfraData\\Eventos.IO.InfraData.csproj",
+      "projectUniqueName": "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.InfraData\\Eventos.IO.InfraData.csproj",
       "projectName": "Eventos.IO.InfraData",
-      "projectPath": "D:\\Aprendizado\\Eduardo Pires\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.InfraData\\Eventos.IO.InfraData.csproj",
-      "packagesPath": "C:\\Users\\ALEXANDRORP_ADM\\.nuget\\packages\\",
-      "outputPath": "D:\\Aprendizado\\Eduardo Pires\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.InfraData\\obj\\",
+      "projectPath": "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.InfraData\\Eventos.IO.InfraData.csproj",
+      "packagesPath": "C:\\Users\\Alexandro e Fabiana\\.nuget\\packages\\",
+      "outputPath": "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.InfraData\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ALEXANDRORP_ADM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alexandro e Fabiana\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3827,11 +3827,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\Aprendizado\\Eduardo Pires\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj": {
-              "projectPath": "D:\\Aprendizado\\Eduardo Pires\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj"
+            "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj": {
+              "projectPath": "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj"
             },
-            "D:\\Aprendizado\\Eduardo Pires\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj": {
-              "projectPath": "D:\\Aprendizado\\Eduardo Pires\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj"
+            "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj": {
+              "projectPath": "C:\\Alexandro\\Aprendizado\\Eduardo Pires\\AspNetCoreVimeo\\Video\\AplicacaoCurso\\Eventos.IO\\src\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj"
             }
           }
         }

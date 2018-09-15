@@ -3,7 +3,9 @@
     ViewData["Title"] = "Edit";
 }
 
-<h2>Create</h2>
+<h2>@ViewData["Title"]</h2>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker3.min.css" rel="stylesheet" />
 
 <form asp-action="Edit">
     <div class="form-horizontal">
@@ -50,7 +52,7 @@
         <div class="form-group">
             <label asp-for="DataInicio" class="col-md-2 control-label"></label>
             <div class="col-md-10">
-                <input asp-for="DataInicio" class="form-control" />
+                <input asp-for="DataInicio" type="text" asp-format="{0:dd/MM/yyyy}" class="form-control" />
                 <span asp-validation-for="DataInicio" class="text-danger"></span>
             </div>
         </div>
@@ -58,7 +60,7 @@
         <div class="form-group">
             <label asp-for="DataFim" class="col-md-2 control-label"></label>
             <div class="col-md-10">
-                <input asp-for="DataFim" class="form-control" />
+                <input asp-for="DataFim" type="text" asp-format="{0:dd/MM/yyyy}" class="form-control" />
                 <span asp-validation-for="DataFim" class="text-danger"></span>
             </div>
         </div>
@@ -74,7 +76,7 @@
         <div class="form-group">
             <label asp-for="Valor" class="col-md-2 control-label"></label>
             <div class="col-md-10">
-                <input asp-for="Valor" class="form-control" />
+                <input data-val-number="O valor está em formato inválido." asp-for="Valor" class="form-control" />
                 <span asp-validation-for="Valor" class="text-danger"></span>
             </div>
         </div>
@@ -110,6 +112,14 @@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/locales/bootstrap-datepicker.pt-BR.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/locales/bootstrap-datepicker.pt.min.js"></script>
+
+    <script>
+        ValidacoesEvento();
+    </script>
 
     @{
         if (ViewBag.RetornoPost != null)

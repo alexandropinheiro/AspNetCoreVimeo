@@ -16,3 +16,17 @@ C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Even
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Application\bin\Debug\netstandard2.0\Eventos.IO.Application.pdb
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Application\obj\Debug\netstandard2.0\Eventos.IO.Application.dll
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Application\obj\Debug\netstandard2.0\Eventos.IO.Application.pdb
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Application\obj\Debug\netstandard2.0\Eventos.IO.Application.csprojAssemblyReference.cache
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Application\obj\Debug\netstandard2.0\Eventos.IO.Application.csproj.CoreCompileInputs.cache
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Application\obj\Debug\netstandard2.0\Eventos.IO.Application.AssemblyInfoInputs.cache
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Application\obj\Debug\netstandard2.0\Eventos.IO.Application.AssemblyInfo.cs
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Application\obj\Debug\netstandard2.0\Eventos.IO.Application.dll
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Application\obj\Debug\netstandard2.0\Eventos.IO.Application.pdb
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Application\bin\Debug\netstandard2.0\Eventos.IO.Application.deps.json
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Application\bin\Debug\netstandard2.0\Eventos.IO.Application.dll
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Application\bin\Debug\netstandard2.0\Eventos.IO.Application.pdb
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Application\bin\Debug\netstandard2.0\Eventos.IO.Domain.Core.dll
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Application\bin\Debug\netstandard2.0\Eventos.IO.Domain.dll
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Application\bin\Debug\netstandard2.0\Eventos.IO.Domain.Core.pdb
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Application\bin\Debug\netstandard2.0\Eventos.IO.Domain.pdb
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Application\obj\Debug\netstandard2.0\Eventos.IO.Application.csproj.CopyComplete

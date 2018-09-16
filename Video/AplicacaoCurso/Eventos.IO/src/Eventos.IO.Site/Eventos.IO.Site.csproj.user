@@ -12,6 +12,7 @@
     <WebStackScaffolding_ViewDialogWidth>600</WebStackScaffolding_ViewDialogWidth>
     <ActiveDebugProfile>IIS Express</ActiveDebugProfile>
     <WebStackScaffolding_DbContextTypeFullName>Eventos.IO.InfraData.Context.EventosContext</WebStackScaffolding_DbContextTypeFullName>
+    <ShowAllFiles>false</ShowAllFiles>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>

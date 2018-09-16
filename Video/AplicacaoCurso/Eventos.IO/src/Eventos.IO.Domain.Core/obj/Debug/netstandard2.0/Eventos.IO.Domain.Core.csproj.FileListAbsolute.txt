@@ -10,6 +10,7 @@ D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Doma
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Domain.Core\bin\Debug\netstandard2.0\Eventos.IO.Domain.Core.deps.json
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Domain.Core\bin\Debug\netstandard2.0\Eventos.IO.Domain.Core.dll
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Domain.Core\bin\Debug\netstandard2.0\Eventos.IO.Domain.Core.pdb
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Domain.Core\obj\Debug\netstandard2.0\Eventos.IO.Domain.Core.csprojAssemblyReference.cache
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Domain.Core\obj\Debug\netstandard2.0\Eventos.IO.Domain.Core.csproj.CoreCompileInputs.cache
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Domain.Core\obj\Debug\netstandard2.0\Eventos.IO.Domain.Core.AssemblyInfoInputs.cache
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Domain.Core\obj\Debug\netstandard2.0\Eventos.IO.Domain.Core.AssemblyInfo.cs

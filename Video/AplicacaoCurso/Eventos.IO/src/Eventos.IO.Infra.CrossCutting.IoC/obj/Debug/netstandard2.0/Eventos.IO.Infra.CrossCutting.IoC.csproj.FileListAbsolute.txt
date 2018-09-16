@@ -27,10 +27,12 @@ C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Even
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\Eventos.IO.Domain.Core.dll
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\Eventos.IO.Domain.dll
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Bus.dll
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Identity.dll
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\Eventos.IO.InfraData.dll
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\Eventos.IO.Application.pdb
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\Eventos.IO.Domain.pdb
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Bus.pdb
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Identity.pdb
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\Eventos.IO.InfraData.pdb
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\Eventos.IO.Domain.Core.pdb
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.IoC\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.IoC.csprojAssemblyReference.cache

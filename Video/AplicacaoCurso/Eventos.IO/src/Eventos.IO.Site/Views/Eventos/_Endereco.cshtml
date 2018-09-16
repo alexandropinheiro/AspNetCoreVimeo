@@ -1,0 +1,80 @@
+﻿@using Eventos.IO.Application.ViewModels;
+
+@model EnderecoViewModel
+
+<form asp-action="_Endereco">
+    <div class="form-horizontal">
+        <h4>EnderecoViewModel</h4>
+        <hr />
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="Id" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Id" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Logradouro" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Logradouro" class="form-control" />
+                <span asp-validation-for="Logradouro" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Numero" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Numero" class="form-control" />
+                <span asp-validation-for="Numero" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Complemento" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Complemento" class="form-control" />
+                <span asp-validation-for="Complemento" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Bairro" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Bairro" class="form-control" />
+                <span asp-validation-for="Bairro" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Cep" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Cep" class="form-control" />
+                <span asp-validation-for="Cep" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Cidade" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Cidade" class="form-control" />
+                <span asp-validation-for="Cidade" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Estado" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Estado" class="form-control" />
+                <span asp-validation-for="Estado" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="EventoId" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="EventoId" class="form-control" />
+                <span asp-validation-for="EventoId" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+</form>

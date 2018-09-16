@@ -59,7 +59,7 @@ namespace Eventos.IO.Infra.CrossCutting.IoC
             services.AddScoped<IBus, InMemoryBus>();
 
             // Infra - Identity
-            services.AddTransient<IEmailSender, AuthMessageSender>();
+           // services.AddTransient<IEmailSender, AuthMessageSender>();
             services.AddScoped<IUser, AspNetUser>();
         }
     }

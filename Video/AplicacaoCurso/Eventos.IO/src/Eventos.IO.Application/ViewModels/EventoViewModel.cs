@@ -38,6 +38,7 @@ namespace Eventos.IO.Application.ViewModels
         [Display(Name = "Será gratuito?")]
         public bool Gratuito { get; set; }
 
+        [Required(ErrorMessage = "O Valor é requerido.")]
         [Display(Name = "Valor")]
         [DisplayFormat(DataFormatString = "{0:C}")]
         [DataType(DataType.Currency, ErrorMessage = "Moeda em formato inválido.")]

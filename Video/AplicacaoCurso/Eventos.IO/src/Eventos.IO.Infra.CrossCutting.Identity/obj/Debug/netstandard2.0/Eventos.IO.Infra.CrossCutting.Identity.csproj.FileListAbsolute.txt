@@ -1,0 +1,15 @@
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\bin\Debug\netstandard2.0\appsettings.json
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\bin\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Identity.deps.json
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\bin\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Identity.dll
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\bin\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Identity.pdb
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\bin\Debug\netstandard2.0\Eventos.IO.Domain.Core.dll
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\bin\Debug\netstandard2.0\Eventos.IO.Domain.dll
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\bin\Debug\netstandard2.0\Eventos.IO.Domain.pdb
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\bin\Debug\netstandard2.0\Eventos.IO.Domain.Core.pdb
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Identity.csprojAssemblyReference.cache
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Identity.csproj.CoreCompileInputs.cache
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Identity.AssemblyInfoInputs.cache
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Identity.AssemblyInfo.cs
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Identity.csproj.CopyComplete
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Identity.dll
+C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.Identity\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Identity.pdb

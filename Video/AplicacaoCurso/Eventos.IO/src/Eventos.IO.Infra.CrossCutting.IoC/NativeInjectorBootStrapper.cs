@@ -12,6 +12,8 @@ using Eventos.IO.Domain.Organizadores.Commands;
 using Eventos.IO.Domain.Organizadores.Events;
 using Eventos.IO.Domain.Organizadores.Repository;
 using Eventos.IO.Infra.CrossCutting.Bus;
+using Eventos.IO.Infra.CrossCutting.Identity.Models;
+using Eventos.IO.Infra.CrossCutting.Identity.Services;
 using Eventos.IO.InfraData.Context;
 using Eventos.IO.InfraData.Repository;
 using Eventos.IO.InfraData.Uow;
@@ -55,6 +57,10 @@ namespace Eventos.IO.Infra.CrossCutting.IoC
 
             // Infra - Bus
             services.AddScoped<IBus, InMemoryBus>();
+
+            // Infra - Identity
+            services.AddTransient<IEmailSender, AuthMessageSender>();
+            services.AddScoped<IUser, AspNetUser>();
         }
     }
 }

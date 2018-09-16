@@ -1,9 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using Eventos.IO.Infra.CrossCutting.Identity.Services;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
-using Eventos.IO.Site.Services;
 
 namespace Eventos.IO.Site.Services
 {

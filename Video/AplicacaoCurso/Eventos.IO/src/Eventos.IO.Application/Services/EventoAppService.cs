@@ -49,15 +49,32 @@ namespace Eventos.IO.Application.Services
             var registroCommand = _mapper.Map<RegistrarEventoCommand>(eventoViewModel);
             _bus.SendCommand(registroCommand);
         }
+        
+        public void Excluir(Guid id)
+        {
+            _bus.SendCommand(new ExcluirEventoCommand(id));
+        }
+
+        public void AdicionarEndereco(EnderecoViewModel enderecoViewModel)
+        {
+            var enderecoCommand = _mapper.Map<IncluirEnderecoEventoCommand>(enderecoViewModel);
+            _bus.SendCommand(enderecoCommand);
+        }
+
+        public void AtualizarEndereco(EnderecoViewModel enderecoViewModel)
+        {
+            var enderecoCommand = _mapper.Map<AtualizarEnderecoEventoCommand>(enderecoViewModel);
+            _bus.SendCommand(enderecoCommand);
+        }
+
+        public EnderecoViewModel ObterEnderecoPorId(Guid id)
+        {
+            return _mapper.Map<EnderecoViewModel>(_eventoRepository.ObterEnderecoPorId(id));
+        }
 
         public void Dispose()
         {
             _eventoRepository.Dispose();
-        }
-
-        public void Excluir(Guid id)
-        {
-            _bus.SendCommand(new ExcluirEventoCommand(id));
         }
     }
 }

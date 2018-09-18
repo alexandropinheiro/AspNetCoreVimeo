@@ -27,4 +27,10 @@
     <ProjectReference Include="..\Eventos.IO.InfraData\Eventos.IO.InfraData.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="Views\Shared\NotFound.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+  </ItemGroup>
+
 </Project>

@@ -24,9 +24,9 @@
         "showEasing": "swing",
         "hideEasing": "linear",
         "showMethod": "fadeIn",
-        "hideMethod": "fadeOut",
+        "hideMethod": "fadeOut"
     };
-
+    
     $('#DataInicio').datepicker({
         format: "dd/mm/yyyy",
         startDate: "tomorrow",

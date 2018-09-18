@@ -75,5 +75,12 @@ namespace Eventos.IO.InfraData.Repository
             //Isso é um Inner Join
             //return Db.Eventos.Include(e => e.Endereco).FirstOrDefault(e => e.Id == Id);
         }
+
+        public override void Remover(Guid Id)
+        {
+            var evento = ObterPorId(Id);
+            evento.ExcluirEvento();
+            Atualizar(evento);
+        }
     }
 }

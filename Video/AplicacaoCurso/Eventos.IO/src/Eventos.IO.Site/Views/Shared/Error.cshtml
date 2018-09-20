@@ -2,11 +2,11 @@
 
 @model ErrorViewModel
 @{
-    ViewData["Title"] = "Error";
+    ViewData["Title"] = "Ocorreu um erro!";
 }
 
-<h1 class="text-danger">Error.</h1>
-<h2 class="text-danger">An error occurred while processing your request.</h2>
+<h1 class="text-danger">@ViewData["Title"]</h1>
+<h2 class="text-danger">Ocorreu um erro, tente novamente ou contate um administrador.</h2>
 
 @if (Model.ShowRequestId)
 {

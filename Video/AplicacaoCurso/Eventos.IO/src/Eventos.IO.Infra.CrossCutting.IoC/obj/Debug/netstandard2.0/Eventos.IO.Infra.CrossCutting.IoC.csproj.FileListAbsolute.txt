@@ -42,3 +42,5 @@ C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Even
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.IoC\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.IoC.csproj.CopyComplete
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.IoC\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.IoC.dll
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.IoC\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.IoC.pdb
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Identity.dll
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.Identity.pdb

@@ -99,7 +99,7 @@ namespace Eventos.IO.Services.Api.Controllers
         {
             foreach(var error in result.Errors)
             {
-                NotificarErro(result.ToString(), error.Description));
+                NotificarErro(result.ToString(), error.Description);
             }
         }
     }

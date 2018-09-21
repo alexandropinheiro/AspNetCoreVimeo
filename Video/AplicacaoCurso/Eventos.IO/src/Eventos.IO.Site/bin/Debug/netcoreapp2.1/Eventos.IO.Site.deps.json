@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "723ad6fd574973dc11f563f34fb9734e2ee15f1f"
+    "signature": "2c0c70d55b3a5e6bcb34237b54f36a7ab716b939"
   },
   "compilationOptions": {
     "defines": [
@@ -108,7 +108,7 @@
       },
       "Elmah.Io.Client/3.2.53": {
         "dependencies": {
-          "Microsoft.Rest.ClientRuntime": "2.3.13",
+          "Microsoft.Rest.ClientRuntime": "2.3.10",
           "NETStandard.Library": "2.0.3"
         },
         "runtime": {
@@ -354,7 +354,7 @@
       },
       "Microsoft.NETCore.Platforms/2.1.0": {},
       "Microsoft.NETCore.Targets/2.1.0": {},
-      "Microsoft.Rest.ClientRuntime/2.3.13": {
+      "Microsoft.Rest.ClientRuntime/2.3.10": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "11.0.2"
@@ -362,7 +362,7 @@
         "runtime": {
           "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.3.13.0"
+            "fileVersion": "2.3.10.0"
           }
         },
         "compile": {
@@ -701,8 +701,7 @@
           "Elmah.Io.Client": "3.2.53",
           "Microsoft.AspNetCore.Http.Abstractions": "2.1.1",
           "Microsoft.AspNetCore.Mvc.Abstractions": "2.1.2",
-          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.1.2",
-          "Microsoft.Rest.ClientRuntime": "2.3.13"
+          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.1.2"
         },
         "runtime": {
           "Eventos.IO.Infra.CrossCutting.AspNetFilters.dll": {}
@@ -2147,7 +2146,7 @@
       "Microsoft.Azure.KeyVault/2.3.2": {
         "dependencies": {
           "Microsoft.Azure.KeyVault.WebKey": "2.0.7",
-          "Microsoft.Rest.ClientRuntime": "2.3.13",
+          "Microsoft.Rest.ClientRuntime": "2.3.10",
           "Microsoft.Rest.ClientRuntime.Azure": "3.3.7",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "11.0.2",
@@ -2972,7 +2971,7 @@
       },
       "Microsoft.Rest.ClientRuntime.Azure/3.3.7": {
         "dependencies": {
-          "Microsoft.Rest.ClientRuntime": "2.3.13",
+          "Microsoft.Rest.ClientRuntime": "2.3.10",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "11.0.2"
         },
@@ -4371,66 +4370,66 @@
       "path": "microsoft.netcore.targets/2.1.0",
       "hashPath": "microsoft.netcore.targets.2.1.0.nupkg.sha512"
     },
-    "Microsoft.Rest.ClientRuntime/2.3.13": {
+    "Microsoft.Rest.ClientRuntime/2.3.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nlmhrw/0PtJTuqp9H7X+HiqdZx4/DFLRPQ4Vy8I7hNE3BZwbGyDfde4lOd6qygQqjqcOX/9l6wIMXp/Z2Jp5Lw==",
-      "path": "microsoft.rest.clientruntime/2.3.13",
-      "hashPath": "microsoft.rest.clientruntime.2.3.13.nupkg.sha512"
+      "sha512": "sha512-JO9CzV1hvjtrIzq06gJ5nNv7GV24Xz3Y3O9vx7fCe7ndNA0NmD3fZ9JUgFir2UvJ2/+9vvCo/6RXjyfywvQQIw==",
+      "path": "microsoft.rest.clientruntime/2.3.10",
+      "hashPath": "microsoft.rest.clientruntime.2.3.10.nupkg.sha512"
     },
     "Microsoft.VisualStudio.Web.CodeGeneration/2.1.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-pRyGF/8FWK+JGHH1ILwBGChTS+Gbo/oEKEOBnOSvwfUO1FmrSIYzF2+oMZCv8J1viGopXtZeIqbi3xLjdroR+A==",
+      "sha512": "sha512-TD7kcw+VSlVt8HnYpWI0cycv5sbQt6TmsiIotsUNmTEGldTJNbz9VnnFHXM4OlPeykk+pzzI+85hGTvjHEyitQ==",
       "path": "microsoft.visualstudio.web.codegeneration/2.1.4",
       "hashPath": "microsoft.visualstudio.web.codegeneration.2.1.4.nupkg.sha512"
     },
     "Microsoft.VisualStudio.Web.CodeGeneration.Contracts/2.1.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-eRwMmal/ed9hDXIV0BoTuchMaX/N52U91UotVUOeNdYp0uplh33A52dhr3DiaeilHjc08gX+lFOwR/VLNxUMnA==",
+      "sha512": "sha512-Wbho7vtTlx4dn5WiEeaHj1wl1YsOk0JuhQbQNORG412Z3c2O6J2P3Zm2GuLzGNvXsBEjMFjlXuxE6SjuxCEs7w==",
       "path": "microsoft.visualstudio.web.codegeneration.contracts/2.1.4",
       "hashPath": "microsoft.visualstudio.web.codegeneration.contracts.2.1.4.nupkg.sha512"
     },
     "Microsoft.VisualStudio.Web.CodeGeneration.Core/2.1.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-f1d9gK4xdrHzjU2j4CGIL6JNvHWJUbKnZRmEhP/NRRSut29KhClPcALcV6R/nJ48QvECnu+Wwfy+hUJMa1uddg==",
+      "sha512": "sha512-MCh9syrOIKOoeHNPbFa642yjz+XCAF43JrdO//Y4JE3nobwlLdu6NWCFrudAt6NxgL/0BQuZKL7AsYp9RcJxjA==",
       "path": "microsoft.visualstudio.web.codegeneration.core/2.1.4",
       "hashPath": "microsoft.visualstudio.web.codegeneration.core.2.1.4.nupkg.sha512"
     },
     "Microsoft.VisualStudio.Web.CodeGeneration.Design/2.1.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-qHnioaphp0iIQO6+FtHCLMRKABq7IOvApKmQ5/YELrY56yg/rtiT4DeXDUNpsBRmJEuTHP5mcYAXUXs7Pn7Arg==",
+      "sha512": "sha512-E1X3OljxZq46xpThV6x5vAAi34+aYXaUEGr2r69wgkcHCVy26HDMGVO6yNN9ZpJ99369b64O0HoKZ5WGo8VVIQ==",
       "path": "microsoft.visualstudio.web.codegeneration.design/2.1.4",
       "hashPath": "microsoft.visualstudio.web.codegeneration.design.2.1.4.nupkg.sha512"
     },
     "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/2.1.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-EbNTVZ5lohK0C1EcnvJIjGzi3sqfzFbeqyUk4jkH/bq55uyUtObUrkao/ddFEQ9IgjXWAqy9BqKNVLEJ/kuBuw==",
+      "sha512": "sha512-EX/69uGnM4tHjN+D8S4gyOo0CQhi/DjXV87ooRbdT3rfXQNk6JhauDGhDjj1xQnPr/6B8bDXh75kahRPYnr8Mg==",
       "path": "microsoft.visualstudio.web.codegeneration.entityframeworkcore/2.1.4",
       "hashPath": "microsoft.visualstudio.web.codegeneration.entityframeworkcore.2.1.4.nupkg.sha512"
     },
     "Microsoft.VisualStudio.Web.CodeGeneration.Templating/2.1.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-vy4sxmI9bgAc9PTd0f8re0h9Fq9DbltT0TCc5ZppH3rq/w22K1R23hzd0NA+TvM+kkzSiy6/mgzLlIylFqg1LQ==",
+      "sha512": "sha512-T0iX45PIu8y5E/EJobHiI8PBuaWqT04vsLV3QYfTfHBcMshs6VJjCvfCd1dmHDGIXiQXZO5gOS3EsLQ3VVBu9w==",
       "path": "microsoft.visualstudio.web.codegeneration.templating/2.1.4",
       "hashPath": "microsoft.visualstudio.web.codegeneration.templating.2.1.4.nupkg.sha512"
     },
     "Microsoft.VisualStudio.Web.CodeGeneration.Utils/2.1.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-mODOWROfc7yeroPiU/MBQdVLYTV69GJTX0LY7Wlu2F5pjsvzKbqQRE1uzgLPeGYt5IHK5sV9Qq9JnsEeH6B8Vg==",
+      "sha512": "sha512-bVXXOYfTHW425012c/OJHQ5J4V59U6ZpO+vwwE5Pad6eohbBxwTD1jiO/9dMHupDbgXdc4Qp4k+OaS3dFOoBrA==",
       "path": "microsoft.visualstudio.web.codegeneration.utils/2.1.4",
       "hashPath": "microsoft.visualstudio.web.codegeneration.utils.2.1.4.nupkg.sha512"
     },
     "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/2.1.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-3sAjNCBzP3ENcOfcHdrpKNioyDeO9lgjTtkB9pDhV9fwGpICyvcNUXIz1sbGiYgaxT6/oQ1F8TMYB8ejUKARFg==",
+      "sha512": "sha512-VA1NL3o2h2gcz2V5jSCoCg27GKvj56OATWbw2nMcNpfPmVVRBR/XFrxa9bqfs23dzMpFopIOm35EGOnGsYaMvg==",
       "path": "microsoft.visualstudio.web.codegenerators.mvc/2.1.4",
       "hashPath": "microsoft.visualstudio.web.codegenerators.mvc.2.1.4.nupkg.sha512"
     },

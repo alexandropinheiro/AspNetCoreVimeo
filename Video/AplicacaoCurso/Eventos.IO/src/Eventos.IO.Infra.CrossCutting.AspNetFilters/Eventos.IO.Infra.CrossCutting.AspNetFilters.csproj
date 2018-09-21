@@ -9,7 +9,6 @@
     <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.1.2" />
-    <PackageReference Include="microsoft.rest.clientruntime" Version="2.3.13" />
   </ItemGroup>
 
   <ItemGroup>

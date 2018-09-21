@@ -11,6 +11,7 @@ using Eventos.IO.Domain.Interfaces;
 using Eventos.IO.Domain.Organizadores.Commands;
 using Eventos.IO.Domain.Organizadores.Events;
 using Eventos.IO.Domain.Organizadores.Repository;
+using Eventos.IO.Infra.CrossCutting.AspNetFilters;
 using Eventos.IO.Infra.CrossCutting.Bus;
 using Eventos.IO.Infra.CrossCutting.Identity.Models;
 using Eventos.IO.Infra.CrossCutting.Identity.Services;
@@ -19,6 +20,7 @@ using Eventos.IO.InfraData.Repository;
 using Eventos.IO.InfraData.Uow;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 
 namespace Eventos.IO.Infra.CrossCutting.IoC
 {
@@ -63,8 +65,14 @@ namespace Eventos.IO.Infra.CrossCutting.IoC
             services.AddScoped<IBus, InMemoryBus>();
 
             // Infra - Identity
-           // services.AddTransient<IEmailSender, AuthMessageSender>();
+            // services.AddTransient<IEmailSender, AuthMessageSender>();
             services.AddScoped<IUser, AspNetUser>();
+
+            // Infra - Filtros
+            services.AddScoped<ILogger<GlobalExceptionHandlingFilter>, Logger<GlobalExceptionHandlingFilter>>();
+            services.AddScoped<ILogger<GlobalActionLogger>, Logger<GlobalActionLogger>>();
+            services.AddScoped<GlobalExceptionHandlingFilter>();            
+            services.AddScoped<GlobalActionLogger>();
         }
     }
 }

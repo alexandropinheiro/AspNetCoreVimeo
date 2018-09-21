@@ -13,6 +13,11 @@ using Eventos.IO.Domain.Interfaces;
 using Eventos.IO.Infra.CrossCutting.Identity.Data;
 using Eventos.IO.Infra.CrossCutting.Identity.Models;
 using Eventos.IO.Infra.CrossCutting.Identity.Services;
+using Eventos.IO.Infra.CrossCutting.AspNetFilters;
+using Microsoft.AspNetCore.Mvc;
+using Elmah.Io.Extensions.Logging;
+using System;
+using Elmah.Io.AspNetCore;
 
 namespace Eventos.IO.Site
 {
@@ -35,7 +40,20 @@ namespace Eventos.IO.Site
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
-            services.AddMvc();
+            services.AddAuthorization(options =>
+            {
+                //Aula 18
+                options.AddPolicy("PodeLerEventos", policy => policy.RequireClaim("Eventos", "Ler"));
+                options.AddPolicy("PodeGravar", policy => policy.RequireClaim("Eventos", "Gravar"));
+            });
+
+            services.AddLogging();
+            services.AddMvc(options =>
+            {
+                options.Filters.Add(new ServiceFilterAttribute(typeof(GlobalExceptionHandlingFilter)));
+                options.Filters.Add(new ServiceFilterAttribute(typeof(GlobalActionLogger)));
+            });
+
             services.AddAutoMapper();
 
             // Add application services.
@@ -53,6 +71,11 @@ namespace Eventos.IO.Site
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 
+            //Primeiro parâmetro - Chave da subscription
+            loggerFactory.AddElmahIo("", new Guid(""));
+
+            app.UseElmahIo("", new Guid(""));
+
             if (env.IsDevelopment())
             {
                 app.UseBrowserLink();
@@ -61,7 +84,8 @@ namespace Eventos.IO.Site
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/erro-de-aplicacao");
+                app.UseStatusCodePagesWithReExecute("/erro-de-aplicacao/{0}");
             }
 
             app.UseStaticFiles();

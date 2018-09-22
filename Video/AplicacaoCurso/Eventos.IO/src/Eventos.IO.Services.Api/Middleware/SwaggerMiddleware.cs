@@ -23,14 +23,17 @@ namespace Eventos.IO.Services.Api.Middleware
             {
                 context.Response.StatusCode = StatusCodes.Status404NotFound;
             }
-            await _next.Invoke(context)
+
+            await _next.Invoke(context);
         }
     }
 
-    public static class SwaggerMiddlewareExtensions {
+    public static class SwaggerMiddlewareExtensions
+    {
         public static IApplicationBuilder UseSwaggerAuthorized(this IApplicationBuilder builder)
         {
             return builder.UseMiddleware<SwaggerMiddleware>();
         }
-   
+
     }
+}

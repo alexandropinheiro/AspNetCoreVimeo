@@ -3,10 +3,7 @@ D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infr
 D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.AspNetFilters\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.AspNetFilters.csproj.CoreCompileInputs.cache
 D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.AspNetFilters\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.AspNetFilters.AssemblyInfoInputs.cache
 D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.AspNetFilters\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.AspNetFilters.AssemblyInfo.cs
-D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.AspNetFilters\bin\Debug\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll
-D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.AspNetFilters\bin\Debug\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.xml
 D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.AspNetFilters\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.AspNetFilters.csprojAssemblyReference.cache
-D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.AspNetFilters\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.AspNetFilters.csproj.CopyComplete
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.AspNetFilters\bin\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.AspNetFilters.deps.json
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.AspNetFilters\bin\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.AspNetFilters.dll
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.AspNetFilters\bin\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.AspNetFilters.pdb
@@ -16,3 +13,6 @@ C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Even
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.AspNetFilters\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.AspNetFilters.AssemblyInfo.cs
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.AspNetFilters\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.AspNetFilters.dll
 C:\Alexandro\Aprendizado\Eduardo Pires\AspNetCoreVimeo\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.AspNetFilters\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.AspNetFilters.pdb
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.AspNetFilters\bin\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.AspNetFilters.pdb
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.AspNetFilters\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.AspNetFilters.dll
+D:\Aprendizado\Eduardo Pires\Video\AplicacaoCurso\Eventos.IO\src\Eventos.IO.Infra.CrossCutting.AspNetFilters\obj\Debug\netstandard2.0\Eventos.IO.Infra.CrossCutting.AspNetFilters.pdb

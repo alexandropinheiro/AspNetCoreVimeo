@@ -9,7 +9,6 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace Eventos.IO.Services.Api.Controllers
@@ -26,7 +25,7 @@ namespace Eventos.IO.Services.Api.Controllers
                                  ILoggerFactory loggerFactory,
                                  IBus bus,
                                  IDomainNotificationHandler<DomainNotification> notifications, 
-                                 IUser user) : base(notifications, user)
+                                 IUser user) : base(notifications, user, bus)
         {
             _userManager = userManager;
             _signInManager = signInManager;
@@ -37,8 +36,13 @@ namespace Eventos.IO.Services.Api.Controllers
         [HttpPost]
         [AllowAnonymous]
         [Route("nova-conta")]
-        public async Task<IActionResult> Register([FromBody] RegisterViewModel model)
+        public async Task<IActionResult> Register([FromBody] RegisterViewModel model, int version)
         {
+            if (version == 2)
+            {
+                return Response(new { Message = "API V2 não disponível na versão 2." });
+            }
+
             if (!ModelState.IsValid) return Response(model);
 
             var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
@@ -67,7 +71,10 @@ namespace Eventos.IO.Services.Api.Controllers
         [Route("conta")]
         public async Task<IActionResult> Login([FromBody] LoginViewModel model)
         {
-            if (!ModelState.IsValid) return Response(model);
+            if (!ModelState.IsValid) {
+                NotificarErroModelInvalida();
+                return Response(model);
+            }
 
             var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, false, lockoutOnFailure: true);
 
@@ -79,28 +86,6 @@ namespace Eventos.IO.Services.Api.Controllers
 
             NotificarErro(result.ToString(), "Falha ao realizar o Login");
             return Response(model);
-        }
-
-        private void NotificarErroModelInvalida()
-        {
-            var erros = ModelState.Values.SelectMany(v => v.Errors);
-            foreach(var erro in erros)
-            {
-                NotificarErro(string.Empty, erro.ErrorMessage);
-            }
-        }
-
-        private void NotificarErro(string codigo, string mensagem)
-        {
-            _bus.RaiseEvent(new DomainNotification(codigo, mensagem));
-        }
-
-        private void AdicionarErrosIdentity(IdentityResult result)
-        {
-            foreach(var error in result.Errors)
-            {
-                NotificarErro(result.ToString(), error.Description);
-            }
-        }
+        }        
     }
 }

@@ -82,5 +82,11 @@ namespace Eventos.IO.InfraData.Repository
             evento.ExcluirEvento();
             Atualizar(evento);
         }
+
+        public IEnumerable<Categoria> ObterCategorias()
+        {
+            var sql = "SELECT * FROM Categorias";
+            return Db.Database.GetDbConnection().Query<Categoria>(sql);
+        }
     }
 }

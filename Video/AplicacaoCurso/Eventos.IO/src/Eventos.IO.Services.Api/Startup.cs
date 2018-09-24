@@ -45,6 +45,10 @@ namespace Eventos.IO.Services.Api
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
+            //services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+            //        {
+            //            options.Cookies.ApplicationCookie.AutomaticChallenge = false;
+            //        })
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();

@@ -54,6 +54,7 @@ namespace Eventos.IO.Services.Api.Controllers
             var erros = ModelState.Values.SelectMany(v => v.Errors);
             foreach (var erro in erros)
             {
+                var erroMsg = erro.Exception == null ? erro.ErrorMessage : erro.Exception.Message;
                 NotificarErro(string.Empty, erro.ErrorMessage);
             }
         }

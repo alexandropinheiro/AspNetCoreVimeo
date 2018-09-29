@@ -1,5 +1,6 @@
+import { SeoService } from './services/seo.service';
 import { rootRouterConfig } from './app.routes';
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, Title } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
@@ -34,7 +35,10 @@ import { ListaEventosComponent } from './eventos/lista-eventos/lista-eventos.com
     CarouselModule.forRoot(),
     RouterModule.forRoot(rootRouterConfig, { useHash: false })
   ],
-  providers: [],
+  providers: [
+    Title,
+    SeoService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,6 +1,7 @@
 import { StringUtils } from './../utils/string.utils';
 import { Injectable } from '@angular/core';
 import { Title } from '@angular/platform-browser';
+import { getDOM } from '@angular/platform-browser/src/dom/dom_adapter';
 
 @Injectable()
 export class SeoService {
@@ -13,7 +14,7 @@ export class SeoService {
 
     public constructor(titleService: Title) {
         this.titleService = titleService;
-        // this.DOM = getDOM();
+        this.DOM = getDOM();
         this.headElement = this.DOM.query('head');
         this.setTitle('');
     }
